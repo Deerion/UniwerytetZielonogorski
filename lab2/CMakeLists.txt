@@ -5,7 +5,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(lab2
         #main.cpp
-        zad1.cpp
+        #zad1.cpp
+        zad2.cpp
 
 
 )
