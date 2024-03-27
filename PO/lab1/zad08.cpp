@@ -1,3 +1,9 @@
-//
-// Created by Hubert Jarosz on 27.03.2024.
-//
+#include <iostream>
+using namespace std;
+
+int main() {
+    for (char i=97; i<=122; i++) {
+        cout << i << " -> " << int(i) << endl;
+    }
+    return 0;
+}
