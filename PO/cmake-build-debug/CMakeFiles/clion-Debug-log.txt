@@ -1,1 +1,1 @@
-CMakeLists.txt not found in C:\Users\Hubert Jarosz\Documents\GitHub\repository\PO Select CMakeLists.txt
+CMakeLists.txt not found in C:\Users\Hubert Jarosz\Documents\GitHub\UniwersytetZielonogorski\PO Select CMakeLists.txt
