@@ -1,2 +1,2 @@
 # repository
-arduino IDE, CLION Projects, other
+Projekty i zadania (Uniwersytet Zielonogórski)
