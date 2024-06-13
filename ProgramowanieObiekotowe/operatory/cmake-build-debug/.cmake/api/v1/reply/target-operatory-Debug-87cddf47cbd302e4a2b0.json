@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "polimorfizm.exe"
+			"path" : "operatory.exe"
 		},
 		{
-			"path" : "polimorfizm.pdb"
+			"path" : "operatory.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -52,11 +52,12 @@
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
-	"id" : "polimorfizm::@6890427a1f51a3e7e1df",
+	"id" : "operatory::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +77,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "polimorfizm",
-	"nameOnDisk" : "polimorfizm.exe",
+	"name" : "operatory",
+	"nameOnDisk" : "operatory.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -89,7 +90,8 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -98,7 +100,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.cpp",
+			"path" : "operatorPlus.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatorCout.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

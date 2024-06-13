@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/ProgramowanieObiekotowe/polimorfizm/cmake-build-debug"
+			"value" : "c:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/ProgramowanieObiekotowe/konstruktory/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/ProgramowanieObiekotowe/polimorfizm/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/ProgramowanieObiekotowe/konstruktory/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/ProgramowanieObiekotowe/polimorfizm"
+			"value" : "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/ProgramowanieObiekotowe/konstruktory"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/polimorfizm"
+			"value" : "C:/Program Files (x86)/konstruktory"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -687,7 +687,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/JetBrains/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe"
+			"value" : "C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/ninja/win/x64/ninja.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -875,7 +875,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "polimorfizm"
+			"value" : "konstruktory"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1282,7 +1282,7 @@
 			"value" : "TRUE"
 		},
 		{
-			"name" : "polimorfizm_BINARY_DIR",
+			"name" : "konstruktory_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1291,10 +1291,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/ProgramowanieObiekotowe/polimorfizm/cmake-build-debug"
+			"value" : "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/ProgramowanieObiekotowe/konstruktory/cmake-build-debug"
 		},
 		{
-			"name" : "polimorfizm_IS_TOP_LEVEL",
+			"name" : "konstruktory_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1306,7 +1306,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "polimorfizm_SOURCE_DIR",
+			"name" : "konstruktory_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1315,7 +1315,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/ProgramowanieObiekotowe/polimorfizm"
+			"value" : "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/ProgramowanieObiekotowe/konstruktory"
 		}
 	],
 	"kind" : "cache",

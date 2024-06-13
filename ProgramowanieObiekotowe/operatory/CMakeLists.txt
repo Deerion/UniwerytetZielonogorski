@@ -4,6 +4,6 @@ project(operatory)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(operatory
-        #main.cpp
-        zad2.cpp
+        #operatorPlus.cpp
+        operatorCout.cpp
 )
