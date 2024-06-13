@@ -1,0 +1,3 @@
+C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/ProgramowanieObiekotowe/wskazniki/cmake-build-debug/CMakeFiles/wskazniki.dir
+C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/ProgramowanieObiekotowe/wskazniki/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/ProgramowanieObiekotowe/wskazniki/cmake-build-debug/CMakeFiles/rebuild_cache.dir

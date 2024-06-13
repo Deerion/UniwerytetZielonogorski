@@ -1,5 +1,4 @@
 # ninja log v5
 0	747	7400049500040620	CMakeFiles/konstruktory.dir/konstruktorKopiujacy.cpp.obj	b74cc3d9d0e32fd
-2	589	7400050145622626	build.ninja	97f93e73ebe955f1
+13	757	7400051943452478	build.ninja	97f93e73ebe955f1
 752	904	7400049501524043	konstruktory.exe	cbc25aefb51b20e9
-13	757	7400050145622626	build.ninja	97f93e73ebe955f1
