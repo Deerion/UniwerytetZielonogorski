@@ -1,4 +1,11 @@
 # ninja log v5
-1370	1583	7400046783108631	operatory.exe	98a9bdaa38920156
-3	1610	7400047145127265	build.ninja	4c898b6769aeb055
-1	1369	7400046781073188	CMakeFiles/operatory.dir/operatorPlus.cpp.obj	3805ee68dba0bac
+1114	1302	7400548537161277	operatory.exe	b058dc500d5e966d
+1	573	7400554068762872	build.ninja	4c898b6769aeb055
+7	1445	7400537304857329	CMakeFiles/operatory.dir/operatorPlus.cpp.obj	3805ee68dba0bac
+6	869	7400540821253839	CMakeFiles/operatory.dir/operatorCout.cpp.obj	7fa84a6c344d64a1
+1	1113	7400548535331293	CMakeFiles/operatory.dir/operatorCout2.cpp.obj	25767287b1bf3c90
+7	522	7400554068762872	build.ninja	4c898b6769aeb055
+1	669	7400554076853761	CMakeFiles/operatory.dir/operatorPlus2.cpp.obj	fa44b5223a665c47
+671	867	7400554078820223	operatory.exe	69f1402d173ad47b
+7	1336	7400554500755473	CMakeFiles/operatory.dir/operatorPlus2.cpp.obj	fa44b5223a665c47
+1339	1510	7400554502425752	operatory.exe	69f1402d173ad47b

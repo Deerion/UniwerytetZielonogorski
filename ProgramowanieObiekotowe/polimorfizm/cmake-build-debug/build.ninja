@@ -55,6 +55,24 @@ build CMakeFiles/polimorfizm.dir/example.cpp.obj: CXX_COMPILER__polimorfizm_unsc
   OBJECT_DIR = CMakeFiles\polimorfizm.dir
   OBJECT_FILE_DIR = CMakeFiles\polimorfizm.dir
 
+build CMakeFiles/polimorfizm.dir/dziedziczenie_01.cpp.obj: CXX_COMPILER__polimorfizm_unscanned_Debug C$:/Users/Hubert$ Jarosz/Documents/GitHub/UniwersytetZielonogorski/ProgramowanieObiekotowe/polimorfizm/dziedziczenie_01.cpp || cmake_object_order_depends_target_polimorfizm
+  DEP_FILE = CMakeFiles\polimorfizm.dir\dziedziczenie_01.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\polimorfizm.dir
+  OBJECT_FILE_DIR = CMakeFiles\polimorfizm.dir
+
+build CMakeFiles/polimorfizm.dir/virtual_01.cpp.obj: CXX_COMPILER__polimorfizm_unscanned_Debug C$:/Users/Hubert$ Jarosz/Documents/GitHub/UniwersytetZielonogorski/ProgramowanieObiekotowe/polimorfizm/virtual_01.cpp || cmake_object_order_depends_target_polimorfizm
+  DEP_FILE = CMakeFiles\polimorfizm.dir\virtual_01.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\polimorfizm.dir
+  OBJECT_FILE_DIR = CMakeFiles\polimorfizm.dir
+
+build CMakeFiles/polimorfizm.dir/virtual_02.cpp.obj: CXX_COMPILER__polimorfizm_unscanned_Debug C$:/Users/Hubert$ Jarosz/Documents/GitHub/UniwersytetZielonogorski/ProgramowanieObiekotowe/polimorfizm/virtual_02.cpp || cmake_object_order_depends_target_polimorfizm
+  DEP_FILE = CMakeFiles\polimorfizm.dir\virtual_02.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\polimorfizm.dir
+  OBJECT_FILE_DIR = CMakeFiles\polimorfizm.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target polimorfizm
@@ -63,7 +81,7 @@ build CMakeFiles/polimorfizm.dir/example.cpp.obj: CXX_COMPILER__polimorfizm_unsc
 #############################################
 # Link the executable polimorfizm.exe
 
-build polimorfizm.exe: CXX_EXECUTABLE_LINKER__polimorfizm_Debug CMakeFiles/polimorfizm.dir/example.cpp.obj
+build polimorfizm.exe: CXX_EXECUTABLE_LINKER__polimorfizm_Debug CMakeFiles/polimorfizm.dir/example.cpp.obj CMakeFiles/polimorfizm.dir/dziedziczenie_01.cpp.obj CMakeFiles/polimorfizm.dir/virtual_01.cpp.obj CMakeFiles/polimorfizm.dir/virtual_02.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\polimorfizm.dir

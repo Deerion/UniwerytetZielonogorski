@@ -4,7 +4,7 @@ using namespace std;
 class A{
 public:
     A(){cout<<"A\n";}
-virtual void f(){cout<<"fA\n";}
+    virtual void f(){cout<<"fA\n";}
 };
 class B:public A{
 public:

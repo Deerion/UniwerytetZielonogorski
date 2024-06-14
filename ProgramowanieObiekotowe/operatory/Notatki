@@ -1,0 +1,21 @@
+// Przeciążenie operatora + do dodawania liczby całkowitej
+    int operator+(int liczba) const {
+        return this->x - liczba;
+    }
+
+    // Przeciążenie operatora + do dodawania dwóch obiektów klasy A
+    A operator+(const A& other) const {
+        return A(this->x + other.x);
+    }
+
+      // Przeciążenie operatora + do dodawania liczby całkowitej
+        A& operator+(int liczba) {
+            this->x += liczba; // Dodawanie liczby do bieżącego obiektu
+            return *this;      // Zwracamy referencję do bieżącego obiektu
+        }
+
+        // Przeciążenie operatora + do dodawania dwóch obiektów klasy A
+        A& operator+(const A& other) {
+            this->x += other.x; // Dodawanie pola x drugiego obiektu do bieżącego obiektu
+            return *this;       // Zwracamy referencję do bieżącego obiektu
+        }
