@@ -24,7 +24,7 @@ public:
 
     // Metoda do wyświetlania danych
     void printData() const {
-        std::cout << "Data: " << static_cast<int>(*data) << std::endl;
+        std::cout << "Data: " << *data << std::endl;
     }
 };
 
