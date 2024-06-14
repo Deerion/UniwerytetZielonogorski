@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/Hubert$ Jarosz/Documents/GitHub/UniwersytetZielo
 
 build cmake_object_order_depends_target_konstruktory: phony || CMakeFiles/konstruktory.dir
 
-build CMakeFiles/konstruktory.dir/konstruktorKopiujacy.cpp.obj: CXX_COMPILER__konstruktory_unscanned_Debug C$:/Users/Hubert$ Jarosz/Documents/GitHub/UniwersytetZielonogorski/ProgramowanieObiekotowe/konstruktory/konstruktorKopiujacy.cpp || cmake_object_order_depends_target_konstruktory
-  DEP_FILE = CMakeFiles\konstruktory.dir\konstruktorKopiujacy.cpp.obj.d
+build CMakeFiles/konstruktory.dir/konstruktorKopiujacy2.cpp.obj: CXX_COMPILER__konstruktory_unscanned_Debug C$:/Users/Hubert$ Jarosz/Documents/GitHub/UniwersytetZielonogorski/ProgramowanieObiekotowe/konstruktory/konstruktorKopiujacy2.cpp || cmake_object_order_depends_target_konstruktory
+  DEP_FILE = CMakeFiles\konstruktory.dir\konstruktorKopiujacy2.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\konstruktory.dir
   OBJECT_FILE_DIR = CMakeFiles\konstruktory.dir
@@ -63,7 +63,7 @@ build CMakeFiles/konstruktory.dir/konstruktorKopiujacy.cpp.obj: CXX_COMPILER__ko
 #############################################
 # Link the executable konstruktory.exe
 
-build konstruktory.exe: CXX_EXECUTABLE_LINKER__konstruktory_Debug CMakeFiles/konstruktory.dir/konstruktorKopiujacy.cpp.obj
+build konstruktory.exe: CXX_EXECUTABLE_LINKER__konstruktory_Debug CMakeFiles/konstruktory.dir/konstruktorKopiujacy2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\konstruktory.dir

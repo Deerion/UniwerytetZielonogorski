@@ -1,6 +1,18 @@
-#include <iostream>
+class MyClass {
+private:
+    char* data;
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
-}
+public:
+    // Konstruktor
+    MyClass(char value):data(new char (value)) {}
+
+    // Konstruktor kopiujący
+    MyClass(const MyClass& other) {
+        data = new char(*(other.data));
+    }
+
+    // Destruktor
+    ~MyClass() {
+        delete data;
+    }
+};
