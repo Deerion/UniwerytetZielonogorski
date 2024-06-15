@@ -25,7 +25,7 @@ public:
     }
 
     // Przeciążenie operatora wyjścia
-    friend ostream& operator<<(ostream& os, const A& obj) {
+    friend ostream& operator<<(ostream& os, A& obj) {
         os << *obj.data;
         return os;
     }

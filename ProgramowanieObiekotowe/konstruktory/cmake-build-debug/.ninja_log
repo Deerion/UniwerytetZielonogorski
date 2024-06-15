@@ -1,14 +1,5 @@
 # ninja log v5
 8	4262	7400572300273719	CMakeFiles/konstruktory.dir/konstruktorKopiujacy2.cpp.obj	3ae80ae05fbcd921
-0	747	7400049500040620	CMakeFiles/konstruktory.dir/konstruktorKopiujacy.cpp.obj	b74cc3d9d0e32fd
-3	864	7401578398345103	build.ninja	97f93e73ebe955f1
-4263	4665	7400572305119354	konstruktory.exe	cb1ec4e61b1b9c80
-3	935	7401578398345103	build.ninja	97f93e73ebe955f1
-1	998	7401580850731218	CMakeFiles/konstruktory.dir/konstruktorKopiujacy.cpp.obj	b74cc3d9d0e32fd
-999	1152	7401580852213455	konstruktory.exe	cbc25aefb51b20e9
-35	1758	7401581552902321	CMakeFiles/konstruktory.dir/konstruktorKopiujacy.cpp.obj	b74cc3d9d0e32fd
-1760	1941	7401581554669595	konstruktory.exe	cbc25aefb51b20e9
-39	1284	7401581663503990	CMakeFiles/konstruktory.dir/konstruktorKopiujacy.cpp.obj	b74cc3d9d0e32fd
-1285	1432	7401581664906896	konstruktory.exe	cbc25aefb51b20e9
 13	1220	7401585176140142	CMakeFiles/konstruktory.dir/konstruktorKopiujacy.cpp.obj	b74cc3d9d0e32fd
+3	935	7401752445202761	build.ninja	97f93e73ebe955f1
 1221	1365	7401585177524923	konstruktory.exe	cbc25aefb51b20e9
