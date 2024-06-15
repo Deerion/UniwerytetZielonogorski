@@ -4,8 +4,7 @@ project(konstruktory)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(konstruktory
-        #konstruktorKopiujacy.cpp
-        konstruktorKopiujacy2.cpp
+        konstruktorKopiujacy.cpp
         #destruktor.cpp
         #konstruktory.cpp
 )

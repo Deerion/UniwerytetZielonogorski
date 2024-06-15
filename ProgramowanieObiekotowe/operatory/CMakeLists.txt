@@ -8,5 +8,6 @@ add_executable(operatory
         #operatorPlus2.cpp
         #operatorCout.cpp
         #operatorCout2.cpp
-        operatorPrzypisania.cpp
+        #operatorPrzypisania.cpp
+        operatorPrzypisania_2.cpp
 )

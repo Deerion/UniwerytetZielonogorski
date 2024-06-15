@@ -13,7 +13,7 @@ public:
     }
 
     // Przeciążenie operatora + do dodawania dwóch obiektów klasy A
-    A operator+(const A& other) const {
+    A operator+(A& other) const {
         return A(this->x + other.x);
     }
 

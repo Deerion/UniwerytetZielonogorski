@@ -1,12 +1,9 @@
 # ninja log v5
-1649	1820	7400568128160318	operatory.exe	6d7c03538b585262
-3	4134	7400570850196756	build.ninja	4c898b6769aeb055
-16	1648	7400568126517267	CMakeFiles/operatory.dir/operatorPrzypisania.cpp.obj	41ff6e7ec777e454
+1267	1568	7401574569900243	operatory.exe	a3e25215c293854f
+4	733	7401573172390833	CMakeFiles/operatory.dir/operatorPrzypisania.cpp.obj	41ff6e7ec777e454
+3	1584	7401577398985045	build.ninja	4c898b6769aeb055
+1	698	7400950845624624	CMakeFiles/operatory.dir/operatorPlus.cpp.obj	3805ee68dba0bac
+0	948	7400933087361371	CMakeFiles/operatory.dir/operatorCout.cpp.obj	7fa84a6c344d64a1
 7	1336	7400554500755473	CMakeFiles/operatory.dir/operatorPlus2.cpp.obj	fa44b5223a665c47
-6	869	7400540821253839	CMakeFiles/operatory.dir/operatorCout.cpp.obj	7fa84a6c344d64a1
-7	1445	7400537304857329	CMakeFiles/operatory.dir/operatorPlus.cpp.obj	3805ee68dba0bac
 1	1113	7400548535331293	CMakeFiles/operatory.dir/operatorCout2.cpp.obj	25767287b1bf3c90
-5	2966	7400571109577540	CMakeFiles/operatory.dir/operatorPrzypisania.cpp.obj	41ff6e7ec777e454
-2969	3322	7400571113092260	operatory.exe	6d7c03538b585262
-9	1101	7400571936059844	CMakeFiles/operatory.dir/operatorPrzypisania.cpp.obj	41ff6e7ec777e454
-1103	1367	7400571938689715	operatory.exe	6d7c03538b585262
+1	1264	7401574566719781	CMakeFiles/operatory.dir/operatorPrzypisania_2.cpp.obj	4e10dc58abbffba5

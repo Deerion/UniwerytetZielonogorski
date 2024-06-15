@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 class A {
 private:
@@ -9,10 +10,10 @@ public:
     A(char value) : data(new char(value)) {}
 
     // Operator przypisania
-    A& operator=(const A& other) {
-        if (this != &other) {
+    A& operator=(const A& obj) {
+        if (this != &obj) {
             delete data;
-            data = new char(*(other.data));
+            data = new char(*(obj.data));
         }
         return *this;
     }
@@ -23,8 +24,8 @@ public:
     }
 
     // Metoda do wyświetlania danych
-    void printData() const {
-        std::cout << "Data: " << *data << std::endl;
+    void wyswietl() const {
+        cout << "Data: " << *data << endl;
     }
 };
 
@@ -36,8 +37,8 @@ int main() {
     obj2 = obj1;
     obj3 = 'E';
 
-    obj2.printData();  // Wyświetla: Data: 65
-    obj3.printData();  // Wyświetla: Data: 69
+    obj2.wyswietl();  // Wyświetla: Data: 65
+    obj3.wyswietl();  // Wyświetla: Data: 69
 
     return 0;
 }

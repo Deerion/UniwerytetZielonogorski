@@ -22,7 +22,7 @@ public:
         os << imie << endl;
     };
 
-    static void wypiszKlase(ostream &os) {
+    void wypiszKlase(ostream &os) {
         os << "Czlowiek" << endl;
     };
 
