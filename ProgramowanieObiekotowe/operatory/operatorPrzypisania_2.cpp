@@ -10,9 +10,9 @@ public:
     A(char value) : data(value) {}
 
     // Operator przypisania
-    A& operator=(const A& other) {
-        if (this != &other) {
-            data = other.data;
+    A& operator=(const A& obj) {
+        if (this != &obj) {
+            data = obj.data;
         }
         return *this;
     }

@@ -14,8 +14,8 @@ public:
     }
 
     // Przeciążenie operatora + do dodawania dwóch obiektów klasy A
-    A& operator+(const A& other) {
-        this->x += other.x; // Dodawanie pola x drugiego obiektu do bieżącego obiektu
+    A& operator+(const A& obj) {
+        this->x += obj.x; // Dodawanie pola x drugiego obiektu do bieżącego obiektu
         return *this;       // Zwracamy referencję do bieżącego obiektu
     }
 
