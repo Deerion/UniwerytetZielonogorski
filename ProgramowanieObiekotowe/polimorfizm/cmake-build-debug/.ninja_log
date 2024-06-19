@@ -1,4 +1,6 @@
 # ninja log v5
-17	1774	7400556709689123	build.ninja	b5627aa99cf69a73
+3	691	7405208604081050	build.ninja	b5627aa99cf69a73
 2	1613	7400048230163073	CMakeFiles/polimorfizm.dir/example.cpp.obj	29a6eb33b3f9bf67
-1617	1784	7400048231800460	polimorfizm.exe	d9e7e9c2da9e109d
+1	1273	7405136960582807	CMakeFiles/polimorfizm.dir/dziedziczenie_01.cpp.obj	ae46c477e690465d
+9	1594	7405135042470336	CMakeFiles/polimorfizm.dir/virtual_01.cpp.obj	6e633cbd6a0a5c4e
+1275	1498	7405136962725277	polimorfizm.exe	af5ec233922ce624

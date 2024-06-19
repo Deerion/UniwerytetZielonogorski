@@ -1,28 +1,50 @@
 #include <iostream>
-#include <cstring>
 using namespace std;
-class A{
+
+class A {
 public:
-    A(){cout<<"A\n";}
-    virtual void f(){cout<<"fA\n";}
+    virtual void f() { cout << "fA\n"; }
+    void g() { cout << "gA\n"; }
 };
-class B:public A{
+
+class B : public A {
 public:
-    B(){cout<<"B\n";}
-    void f(){cout<<"fB\n";}
+    virtual void f() { cout << "fB\n"; }
+    void g() { cout << "gB\n"; }
 };
-void g(A*obj){
-    obj->f();
+
+class C : public B {
+public:
+    virtual void f() { cout << "fC\n"; }
+    void g() { cout << "gC\n"; }
+};
+
+void f(B* obj) {
+    obj->f(); // Wywołanie funkcji wirtualnej
+}
+
+void g(A* obj) {
+    obj->g(); // Wywołanie funkcji niewirtualnej
 }
 
 int main() {
-    A objA;
-    B objB;
+    A* objA = new A();
+    B* objB = new B();
+    C* objC = new C();
 
-    g(&objA);
+    // Wywołania funkcji przez wskaźnik do klasy bazowej (A)
+    // f(objA); // błąd
+    f(objB); // Wywoła fB (polimorfizm)
+    f(objC); // Wywoła fC (polimorfizm)
 
-    g(&objB);
+    g(objA); // Wywoła gA
+    g(objB); // Wywoła gA (brak polimorfizmu)
+    g(objC); // Wywoła gA (brak polimorfizmu)
 
+    // Zwolnienie dynamicznie alokowanych obiektów
+    delete objA;
+    delete objB;
+    delete objC;
 
     return 0;
 }

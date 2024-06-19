@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "polimorfizm.exe"
+			"path" : "operatory.exe"
 		},
 		{
-			"path" : "polimorfizm.pdb"
+			"path" : "operatory.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -52,14 +52,11 @@
 			},
 			"sourceIndexes" : 
 			[
-				0,
-				1,
-				2,
-				3
+				0
 			]
 		}
 	],
-	"id" : "polimorfizm::@6890427a1f51a3e7e1df",
+	"id" : "operatory::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -79,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "polimorfizm",
-	"nameOnDisk" : "polimorfizm.exe",
+	"name" : "operatory",
+	"nameOnDisk" : "operatory.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -92,10 +89,7 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0,
-				1,
-				2,
-				3
+				0
 			]
 		}
 	],
@@ -104,25 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "example.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "dziedziczenie_01.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "virtual_01.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "virtual_02.cpp",
+			"path" : "operatorPlus.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

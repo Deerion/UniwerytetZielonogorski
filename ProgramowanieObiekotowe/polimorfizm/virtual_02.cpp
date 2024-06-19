@@ -32,10 +32,13 @@ public:
     }
 };
 
+
+
 int main() {
     A objA;
     B objB;
     C objC;
+
     A *wskA;
     B *wskB;
     C *wskC;

@@ -26,7 +26,7 @@ public:
 
     // Przeciążenie operatora wyjścia
     friend ostream& operator<<(ostream& os, A& obj) {
-        os << *obj.data;
+        os << *(obj.data);
         return os;
     }
 };
