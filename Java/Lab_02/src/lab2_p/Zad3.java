@@ -1,11 +1,17 @@
-package Lab2;
+package lab2_p;
+
+import java.util.Scanner;
 
 public class Zad3 {
     public static void main(String[] args){
+       Scanner scanner = new Scanner(System.in);
+
         double km;
         double ml;
         System.out.print("Podaj Predkosc samochodu w milach: ");
-        ml = new java.util.Scanner(System.in).nextDouble();
+        ml = scanner.nextDouble(); // zczytuje dane z klawiatury i zapisuje do zmiennej ml
+
+
 
         km = ml * 1.6093440;
 

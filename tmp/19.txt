@@ -1,0 +1,13 @@
+@echo off
+REM Wyświetlenie nazwy zalogowanego użytkownika
+echo Nazwa zalogowanego użytkownika: %USERNAME%
+
+REM Wyświetlenie litery dysku i katalogu macierzystego
+echo Litera dysku i katalog macierzysty: %HOMEDRIVE%%HOMEPATH%
+
+REM Wyświetlenie litery dysku i katalogu macierzystego
+echo Litera dysku i katalog macierzysty: %CD%
+
+REM Wyświetlenie informacji o procesorze
+echo Informacje o procesorze:
+wmic cpu get name

@@ -1,0 +1,1 @@
+schtasks /create /tn "DefragmentacjaDysku" /tr "defrag C:" /sc once /sd 10/20/2024 /st 15:00 /ru SYSTEM

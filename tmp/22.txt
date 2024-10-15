@@ -1,0 +1,22 @@
+@echo off
+:: Sprawdzenie, czy podano dwa argumenty (rozszerzenia)
+if "%~1"=="" (
+    echo Podaj rozszerzenie, które chcesz zamienić (np. .txt).
+    exit /b
+)
+if "%~2"=="" (
+    echo Podaj rozszerzenie, na które chcesz zmienić (np. .tx_).
+    exit /b
+)
+
+:: Przypisanie argumentów do zmiennych
+set "old_ext=%~1"
+set "new_ext=%~2"
+
+:: Pętla do zmiany rozszerzeń
+for %%f in (*%old_ext%) do (
+    ren "%%f" "%%~nf%new_ext%"
+)
+
+:: Informacja dla użytkownika
+echo Zamieniono rozszerzenie plikow %old_ext% na %new_ext%.
