@@ -1,0 +1,3 @@
+openfiles /local on
+
+openfiles /query {/fo table}

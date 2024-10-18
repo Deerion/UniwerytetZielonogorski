@@ -1,0 +1,5 @@
+shutdown -s -t 3600  Wyłączy się po 1h
+
+shutdown -r -t 3600 Uruchomi się ponownie po 1h
+
+shutdown -a anulowanie ponownego uruchom../wyłączenia
