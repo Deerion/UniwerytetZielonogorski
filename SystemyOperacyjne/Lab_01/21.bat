@@ -6,12 +6,12 @@ if "%~1"=="" (
 )
 if "%~2"=="" (
     echo Podaj górny zakres przedziału.
-    exit /b
+    exit /b 
 )
 
 :: Przypisanie argumentów do zmiennych
-set /a start=%1
-set /a end=%2
+set "start=%~1"
+set "end=%~2"
 
 :: Sprawdzenie, czy dolny zakres jest mniejszy od górnego
 if %start% gtr %end% (
