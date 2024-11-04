@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<design-settings>
+	<plugins>
+		<Aldec.Stimuli.1>
+			<hierarchy activeStimuliSetName="StimuliSet3">
+				<stimuliSet name="StimuliSet1">
+					<stimulus name="A" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="40ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/zad01/A"/>
+						</signals>
+					</stimulus>
+					<stimulus name="B" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="20ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/zad01/B"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet2">
+					<stimulus name="A" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="40ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/zad02/A"/>
+						</signals>
+					</stimulus>
+					<stimulus name="B" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="20ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/zad02/B"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet3">
+					<stimulus name="A" strength="default" enabled="true" type="random">
+						<stimulus_data>
+							<distribution value="uniform"/>
+							<seed value="0"/>
+							<period value="50ns"/>
+							<start value="0"/>
+							<end value="5"/>
+							<mean value="1"/>
+							<k_stage value="1"/>
+							<standard_deviation value="1"/>
+							<degree_of_freedom value="1"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/zad03/A"/>
+						</signals>
+					</stimulus>
+					<stimulus name="B" strength="default" enabled="true" type="random">
+						<stimulus_data>
+							<distribution value="uniform"/>
+							<seed value="31231"/>
+							<period value="50ns"/>
+							<start value="0"/>
+							<end value="5"/>
+							<mean value="1"/>
+							<k_stage value="1"/>
+							<standard_deviation value="1"/>
+							<degree_of_freedom value="1"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/zad03/B"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+			</hierarchy>
+		</Aldec.Stimuli.1>
+	</plugins>
+</design-settings>

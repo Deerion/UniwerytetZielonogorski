@@ -1,0 +1,11 @@
+[Version]
+Version=15.0
+[Designs]
+lab5=.\lab5\lab5.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+[Expand]
+lab5=1

@@ -1,0 +1,1 @@
+-w -d "C:/Users/Hubert Jarosz/Desktop/Uk³ady cyfrowe/Lab_05/Lab5/lab5/compile" -s "C:/Users/Hubert Jarosz/Desktop/Uk³ady cyfrowe/Lab_05/Lab5/library.cfg" -j "C:/Users/Hubert Jarosz/Desktop/Uk³ady cyfrowe/Lab_05/Lab5/lab5/projlib.cfg" -work lab5 -O3 -e 100 -work lab5 -2002 ../compile/zad01.vhd ../compile/zad02.vhd ../compile/zad03.vhd 

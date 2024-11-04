@@ -1,0 +1,288 @@
+V 000037 40 1580 1730717603839 zad01
+<?xml version="1.0"?>
+<symbol name="zad01">
+<shape guid="d626d0e3-5d86-412c-bb93-537636e8ef82" default="1">
+<![CDATA[SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #HDL_ENTRIES=
+"library IEEE;\n"+
+"use IEEE.std_logic_1164.all;"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1730717603"
+  #MODIFIED_USEC="813555"
+  #NAME="zad01"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="d626d0e3-5d86-412c-bb93-537636e8ef82"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (40,-20,120,140)
+  FREEID 9
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (40,0,120,120)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (55,-2,70,22)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (95,-2,110,22)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (91,98,105,122)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+   ORIENTATION 3
+  }
+  PIN  2, 0, 0
+  {
+   COORD (60,-20)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="A"
+    #SIDE="top"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (0,20) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (100,-20)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="B"
+    #SIDE="top"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (0,20) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (100,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="Y"
+    #SIDE="bottom"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (0,-20) )
+   }
+  }
+ }
+}
+
+]]>
+</shape>
+</symbol>
+
+
+V 000037 40 2275 1730718659748 zad02
+<?xml version="1.0"?>
+<symbol name="zad02">
+<shape guid="8578d886-ba1d-4113-aa02-a4204d6bda0a" default="1">
+<![CDATA[SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #HDL_ENTRIES=
+"library IEEE;\n"+
+"use IEEE.std_logic_1164.all;"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1730718659"
+  #MODIFIED_USEC="720715"
+  #NAME="zad02"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="8578d886-ba1d-4113-aa02-a4204d6bda0a"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (20,-20,140,180)
+  FREEID 13
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,140,160)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,-2,50,22)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (115,-2,130,22)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (108,114,132,155)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 6
+   ORIENTATION 7
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (68,121,92,155)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 8
+   ORIENTATION 7
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (28,111,52,155)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 10
+   ORIENTATION 7
+  }
+  PIN  2, 0, 0
+  {
+   COORD (40,-20)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="A"
+    #SIDE="top"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (0,20) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (120,-20)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="B"
+    #SIDE="top"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (0,20) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (120,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="AwB"
+    #SIDE="bottom"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (0,-20) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (80,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="ArB"
+    #SIDE="bottom"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (0,-20) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (40,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="AmB"
+    #SIDE="bottom"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (0,-20) )
+   }
+  }
+ }
+}
+
+]]>
+</shape>
+</symbol>
+
+
