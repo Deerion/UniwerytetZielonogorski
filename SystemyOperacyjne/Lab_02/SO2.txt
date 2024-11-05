@@ -1,93 +1,159 @@
-1.	net user
+1. net user
+   - Wyświetla listę kont użytkowników na komputerze.
 
-2/3 	net user Student1 TwojeHasło /add
-	net localgroup "Użytkownicy zaawansowani" /add
-	net localgroup "Użytkownicy zaawansowani" Student1 /add
-	net localgroup "Użytkownicy zaawansowani" Student1 /delete
-	net user Student1 /delete
+2/3. net user Student1 TwojeHasło /add
+   - Tworzy nowe konto użytkownika „Student1” z hasłem „TwojeHasło”.
 
-4. 	start /realtime compmgmt.msc
+   net localgroup "Użytkownicy zaawansowani" /add
+   - Tworzy grupę lokalną „Użytkownicy zaawansowani”.
 
-5.  	start /realtime secpol.msc
+   net localgroup "Użytkownicy zaawansowani" Student1 /add
+   - Dodaje użytkownika „Student1” do grupy „Użytkownicy zaawansowani”.
 
-6.  	start /realtime secpol.msc
+   net localgroup "Użytkownicy zaawansowani" Student1 /delete
+   - Usuwa użytkownika „Student1” z grupy „Użytkownicy zaawansowani”.
 
-7. 	net user Jan TwojeHasło /add
-	icacls C:\Foldery_macierzyste\Jan /grant Jan:(OI)(CI)F
+   net user Student1 /delete
+   - Usuwa konto użytkownika „Student1”.
 
-8.	start /realtime compmgmt.msc
+4. start /realtime compmgmt.msc
+   - Uruchamia „Zarządzanie komputerem” w trybie czasu rzeczywistego.
 
-9.	net user Jan
+5. start /realtime secpol.msc
+   - Uruchamia „Zasady zabezpieczeń lokalnych” w trybie czasu rzeczywistego.
 
-10. 	Skrypt									
+6. start /realtime secpol.msc
+   - Ponownie uruchamia „Zasady zabezpieczeń lokalnych” w trybie czasu rzeczywistego.
 
-11.	Skrypt		net user JanKowalski MojeHaslo123 /add
-			net user JanKowalski /times:PN-PT,08:00-15:00
+7. net user JanKowalski MojeHaslo123 /add /homedir:C:\Foldery_macierzyste\Jan
+   - Tworzy użytkownika „JanKowalski” z hasłem „MojeHaslo123” i ustawia ścieżkę do katalogu macierzystego.
 
-12.	net accounts /minpwlen:10
+8. start /realtime compmgmt.msc
+   - Uruchamia „Zarządzanie komputerem” w trybie czasu rzeczywistego.
 
-13.	net accounts /maxpwage:5
+9. net user Jan
+   - Wyświetla informacje o koncie użytkownika „Jan”.
 
-14.	Skrypt
+10. Skrypt
+    - Zapisanie listy komend do pliku skryptu w celu automatycznego uruchomienia.
 
-15.	h) icacls C:\dane_grup /grant Grupa1:(OI)(CI)M
-	i) icacls C:\dane_grup /grant Grupa2:(OI)(CI)(RX) /deny Grupa2:(W)
-	j) 
+11. net user JanKowalski MojeHaslo123 /add /times:PN-PT,08:00-15:00
+    - Dodaje użytkownika „JanKowalski” z ograniczeniem czasowym logowania od poniedziałku do piątku w godzinach 08:00-15:00.
 
-16.	Skrypt
+12. net accounts /minpwlen:10
+    - Ustawia minimalną długość hasła na 10 znaków.
 
-17.	c:\dane_admina /grant admin:F
+13. net accounts /maxpwage:5
+    - Ustawia maksymalny okres ważności hasła na 5 dni.
 
-18.	
+14. Skrypt
+    - Skrypt do automatycznego uruchamiania komend.
 
-19.	takedown
+15. icacls C:\dane_grup /grant Grupa1:(OI)(CI)M
+    - Udziela grupie „Grupa1” modyfikowalnych uprawnień do folderu „C:\dane_grup” (dziedziczenie: obiekty i kontenery).
 
-20. 	diskpart
+    icacls C:\dane_grup /grant Grupa2:(OI)(CI)(RX) /deny Grupa2:(W)
+    - Przyznaje grupie „Grupa2” uprawnienia tylko do odczytu i wykonania, jednocześnie odmawiając uprawnień do zapisu.
 
-21.	fsutil
+16. Skrypt
+    - Skrypt automatyzujący użycie polecenia.
 
-22.	fsutil fsinfo volumeinfo C:
+17. c:\dane_admina /grant admin:F
+    - Udziela pełnych uprawnień do folderu „c:\dane_admina” dla użytkownika „admin”.
 
-23.	fsutil quota track C:
-	fsutil quota query C:
-	fsutil quota modify C: 62914560 104857600 Student1
-	fsutil quota modify C: 83886080 125829120 Student1
+18. (Puste)
 
-24.	runas /user:administrator cmd
+19. takeown
+    - Przejmuje własność pliku lub folderu (poprawna forma polecenia, nie „takedown”).
 
-25.	query user
-	query session
-	taskmgr
+20. diskpart
+    - Uruchamia narzędzie do zarządzania dyskami.
 
-26.	query proces
-	query process Student1
-	query process /session:console
-	query process [Student1] | findstr /i "notepad"
+21. fsutil
+    - Narzędzie do zarządzania systemem plików i woluminami.
 
-27. 	tasklist /FI "USERNAME eq admin"
-	tasklist /FI "USERNAME eq Student1"
-	tasklist /FI "SESSIONNAME eq console"
-	tasklist /FI "IMAGENAME eq notepad.exe"
+22. fsutil fsinfo volumeinfo C:
+    - Wyświetla informacje o woluminie dysku C:.
 
-28.	
+23. fsutil quota track C:
+    - Włącza śledzenie kwot na dysku C:.
 
-29.	query process Student1
-	tasklist /FI "IMAGENAME eq notepad.exe"
-	taskkill /PID [PID] /F
+    fsutil quota query C:
+    - Wyświetla aktualne ustawienia kwot dla dysku C:.
 
-30.	Podgląd zdarzeń
+    fsutil quota modify C: 62914560 104857600 Student1
+    - Ustawia limity kwot dla użytkownika „Student1” (miękki limit: 60 MB, twardy limit: 100 MB).
 
-31.	systeminfo
+    fsutil quota modify C: 83886080 125829120 Student1
+    - Zmienia limity kwot dla „Student1” (miękki limit: 80 MB, twardy limit: 120 MB).
 
-32.	secpol.msc
-	eventvwr.msc
+24. runas /user:administrator cmd
+    - Uruchamia „cmd” z uprawnieniami administratora.
 
-33.	eventvwr.msc
+25. query user
+    - Wyświetla listę użytkowników zalogowanych na komputerze.
 
+    query session
+    - Wyświetla informacje o sesjach na komputerze.
 
-34.	gpresult
+    taskmgr
+    - Uruchamia „Menedżera zadań”.
 
-35.	gpresult /USER Student1 /R
-	gpresult /H C:\path\to\report.html /USER Student1
+26. query process
+    - Wyświetla listę procesów na komputerze.
 
+    query process Student1
+    - Wyświetla listę procesów uruchomionych przez użytkownika „Student1”.
 
+    query process /session:console
+    - Wyświetla procesy działające na sesji konsolowej.
+
+    query process [Student1] | findstr /i "notepad"
+    - Filtruje procesy uruchomione przez „Student1” i wyszukuje „notepad”.
+
+27. tasklist /FI "USERNAME eq admin"
+    - Wyświetla listę procesów użytkownika „admin”.
+
+    tasklist /FI "USERNAME eq Student1"
+    - Wyświetla listę procesów użytkownika „Student1”.
+
+    tasklist /FI "SESSIONNAME eq console"
+    - Wyświetla procesy na sesji konsolowej.
+
+    tasklist /FI "IMAGENAME eq notepad.exe"
+    - Wyświetla procesy o nazwie „notepad.exe”.
+
+28. (Puste)
+
+29. query process Student1
+    - Wyświetla procesy uruchomione przez „Student1”.
+
+    tasklist /FI "IMAGENAME eq notepad.exe"
+    - Wyświetla listę procesów „notepad.exe”.
+
+    taskkill /PID [PID] /F
+    - Zamyka proces o określonym identyfikatorze (PID) z wymuszeniem.
+
+30. Podgląd zdarzeń
+    - Narzędzie do przeglądania dzienników zdarzeń systemowych.
+
+31. systeminfo
+    - Wyświetla szczegółowe informacje o systemie.
+
+32. secpol.msc
+    - Uruchamia „Zasady zabezpieczeń lokalnych”.
+
+    eventvwr.msc
+    - Uruchamia „Podgląd zdarzeń”.
+
+33. eventvwr.msc
+    - Ponownie uruchamia „Podgląd zdarzeń”.
+
+34. gpresult
+    - Wyświetla wynik zastosowania zasad grupy dla użytkownika lub komputera.
+
+35. gpresult /USER Student1 /R
+    - Wyświetla szczegółowy raport zasad grupy dla użytkownika „Student1”.
+
+    gpresult /H C:\path\to\report.html /USER Student1
+    - Generuje raport zasad grupy w formacie HTML dla użytkownika „Student1”.
