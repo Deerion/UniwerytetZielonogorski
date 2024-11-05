@@ -1,0 +1,15 @@
+@echo off
+
+:start
+set /p nazwa="Podaj nazwe uzytkownika "
+set /p haslo="Podaj haslo uzytkownika "
+if "%nazwa%" == "" (
+echo Nie podano nazwy uzytkownika
+goto start
+)
+
+net user "%nazwa%" "%haslo%" /add
+net user "%nazwa%" /times:PN-PT,08:00-15:00
+
+pause
+

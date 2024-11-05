@@ -1,0 +1,23 @@
+@echo off
+REM Sprawdzenie, czy podano nazwę pliku jako parametr wejściowy
+IF "%~1"=="" (
+    echo Uzycie: %~nx0 nazwa_pliku
+    exit /b 1
+)
+
+REM Sprawdzenie, czy plik istnieje
+IF NOT EXIST "%~1" (
+    echo Plik %~1 nie istnieje.
+    exit /b 1
+)
+
+REM Przetwarzanie pliku i tworzenie kont użytkowników
+for /f "tokens=1,2,3 delims=," %%i in (%~1) do (
+    echo Tworzenie konta dla: %%j (%%k)
+    REM Tutaj można dodać komendę do tworzenia konta, np.:
+    net user %%k /add /fullname:"%%j"
+)
+
+echo Proces tworzenia kont zakończony..
+
+coś nie działa 

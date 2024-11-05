@@ -1,0 +1,24 @@
+@echo off
+setlocal
+
+if "%~3"=="" (
+    echo Użycie: %~nx0 uzytkownik zasob uprawnienia
+    exit /b 1
+)
+
+set "user=%~1"
+set "resource=%~2"
+set "permissions=%~3"
+
+:: Sprawdzenie, czy zasob istnieje
+if not exist "%resource%" (
+    echo Zasob %resource% nie istnieje.
+    exit /b 1
+)
+
+:: Ustawienie praw dostępu
+icacls "%resource%" /grant %user%:%permissions%
+
+echo Prawa dostepu %permissions% zostaly nadane uzytkownikowi %user% do zasobu %resource%.
+
+endlocal

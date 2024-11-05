@@ -1,0 +1,11 @@
+@echo off
+
+
+if "%~1" == "" (
+echo Nie podano uzytkownika
+exit /b
+)
+
+net user %~1
+
+pause

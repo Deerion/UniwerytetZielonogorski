@@ -1,0 +1,93 @@
+1.	net user
+
+2/3 	net user Student1 TwojeHasło /add
+	net localgroup "Użytkownicy zaawansowani" /add
+	net localgroup "Użytkownicy zaawansowani" Student1 /add
+	net localgroup "Użytkownicy zaawansowani" Student1 /delete
+	net user Student1 /delete
+
+4. 	start /realtime compmgmt.msc
+
+5.  	start /realtime secpol.msc
+
+6.  	start /realtime secpol.msc
+
+7. 	net user Jan TwojeHasło /add
+	icacls C:\Foldery_macierzyste\Jan /grant Jan:(OI)(CI)F
+
+8.	start /realtime compmgmt.msc
+
+9.	net user Jan
+
+10. 	Skrypt									
+
+11.	Skrypt		net user JanKowalski MojeHaslo123 /add
+			net user JanKowalski /times:PN-PT,08:00-15:00
+
+12.	net accounts /minpwlen:10
+
+13.	net accounts /maxpwage:5
+
+14.	Skrypt
+
+15.	h) icacls C:\dane_grup /grant Grupa1:(OI)(CI)M
+	i) icacls C:\dane_grup /grant Grupa2:(OI)(CI)(RX) /deny Grupa2:(W)
+	j) 
+
+16.	Skrypt
+
+17.	c:\dane_admina /grant admin:F
+
+18.	
+
+19.	takedown
+
+20. 	diskpart
+
+21.	fsutil
+
+22.	fsutil fsinfo volumeinfo C:
+
+23.	fsutil quota track C:
+	fsutil quota query C:
+	fsutil quota modify C: 62914560 104857600 Student1
+	fsutil quota modify C: 83886080 125829120 Student1
+
+24.	runas /user:administrator cmd
+
+25.	query user
+	query session
+	taskmgr
+
+26.	query proces
+	query process Student1
+	query process /session:console
+	query process [Student1] | findstr /i "notepad"
+
+27. 	tasklist /FI "USERNAME eq admin"
+	tasklist /FI "USERNAME eq Student1"
+	tasklist /FI "SESSIONNAME eq console"
+	tasklist /FI "IMAGENAME eq notepad.exe"
+
+28.	
+
+29.	query process Student1
+	tasklist /FI "IMAGENAME eq notepad.exe"
+	taskkill /PID [PID] /F
+
+30.	Podgląd zdarzeń
+
+31.	systeminfo
+
+32.	secpol.msc
+	eventvwr.msc
+
+33.	eventvwr.msc
+
+
+34.	gpresult
+
+35.	gpresult /USER Student1 /R
+	gpresult /H C:\path\to\report.html /USER Student1
+
+
