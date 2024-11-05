@@ -12,8 +12,7 @@
 
 6.  	start /realtime secpol.msc
 
-7. 	net user Jan TwojeHasło /add
-	icacls C:\Foldery_macierzyste\Jan /grant Jan:(OI)(CI)F
+7. 	net user Jan TwojeHasło /add /homedir:C:\Foldery_Macierzyste\Jan
 
 8.	start /realtime compmgmt.msc
 
