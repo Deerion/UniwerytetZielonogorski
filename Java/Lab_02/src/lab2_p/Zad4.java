@@ -22,9 +22,9 @@ public class Zad4 {
             }
             x = Integer.parseInt(input);
 
-
             count++;
             sum += x;
+
             if(min > x){
                 min = x;
             }

@@ -1,0 +1,29 @@
+timestamp=1731494241907
+
+[~A]
+C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_06/lab_06/lab_06/src/zad1/and_test.v=0*3459*4002
+LastVerilogToplevel=and_test
+ModifyID=3
+Version=74
+
+[~MFT]
+0=6|0lab_06.mgf|4002|2382
+1=4|1lab_06.mgf|2840|2466
+3=8|3lab_06.mgf|1882|1356
+
+[$root]
+A/$root=22|||1*2466
+BinW64/$root=3*1356
+SLP=3*1471
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c9216f610b38f10522f2d0492940dffe43e3e
+
+[and_test]
+A/and_test=22|../src/zad1/and_test.v|27|1*2840
+BinW64/and_test=3*1539
+R=../src/zad1/and_test.v|27
+SLP=3*1882
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|66b9da591b23c7885b71eced22ccbeae4a07c75f2fa40568c09e9134eae7466b28d3a33486ca22df744e594a93e9f41d
+
+[~U]
+$root=12|0*3100|
+and_test=12|0*3266||0x10

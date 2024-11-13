@@ -27,8 +27,8 @@ public class Zad2 {
             double x = (-b / (2 * a));
             System.out.println("Jeden pierwiastek: x = " + x);
         }else if(delta > 0){
-            double x1 = (-b + (Math.pow(delta,2))) / (2 * a);
-            double x2 = (-b - (Math.pow(delta,2))) / (2 * a);
+            double x1 = (-b + (Math.sqrt(delta))) / (2 * a);
+            double x2 = (-b - (Math.sqrt(delta))) / (2 * a);
             System.out.println("Dwa pierwiastki: \n x1 = " + x1 + "\n x2 = " + x2);
 
         }

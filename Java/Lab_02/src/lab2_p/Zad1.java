@@ -16,8 +16,5 @@ public class Zad1 {
             }
             System.out.println();
         }
-
-
     }
-
 }

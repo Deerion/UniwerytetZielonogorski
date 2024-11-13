@@ -8,6 +8,7 @@ public class zad3 {
 
         for (int i = 0; i < 11; i++) {
             tab1[i] = r.nextInt(5)+1;
+
         }
         for (int i = 11; i < 21; i++) {
             tab1[i] = r.nextInt(4)+6;

@@ -24,8 +24,12 @@ FileTimeHigh=31141544
 Status=Compiled
 [CACHEDOC|Aldec.BDE.7|.\lab5\src/zad01/zad01.bde|]
 PROBEBAL=0
+SymbolsToolbox=0
+ZOOMOFSETS_PAGES=1,1,1,2,61,24,
 [CACHEDOC|Aldec.BDE.7|.\lab5\src/zad02/zad02.bde|]
 PROBEBAL=0
+SymbolsToolbox=0
+ZOOMOFSETS_PAGES=1,1,1,2,50,50,
 [COMPILESTATUS|.\src\zad03.bde]
 FileTimeLow=1324588161
 FileTimeHigh=31141542
@@ -38,11 +42,10 @@ Status=Modified
 FileTimeLow=1525890863
 FileTimeHigh=31141544
 Status=Compiled
-[CACHESIMPLE|Aldec.SymbolsCommands.7]
-Built-in symbols=1
-lab5=0
 [CACHEDOC|Aldec.BDE.7|.\lab5\src/zad03/zad03.bde|]
 PROBEBAL=1
+SymbolsToolbox=0
+ZOOMOFSETS_PAGES=1,1,12784,20450,77,210,
 [COMPILESTATUS|.\src\zad04.bde]
 FileTimeLow=2566352930
 FileTimeHigh=31141545
@@ -57,17 +60,11 @@ PROBEBAL=1
 CurrentVersion=103
 [CACHEDOC|Aldec.Project.Generic.7|.\lab5\lab5.adf|]
 Path=/zad03
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Built-in symbols=1
+lab5=0
 [Gui config]
 RunFor=500 ns
-[OPENDOC|Aldec.BDE.7|.\lab5\src/zad01/zad01.bde|]
-SymbolsToolbox=0
-ZOOMOFSETS_PAGES=1,1,1,2,61,24,
-[OPENDOC|Aldec.BDE.7|.\lab5\src/zad02/zad02.bde|]
-SymbolsToolbox=0
-ZOOMOFSETS_PAGES=1,1,1,2,50,50,
-[OPENDOC|Aldec.BDE.7|.\lab5\src/zad03/zad03.bde|]
-SymbolsToolbox=0
-ZOOMOFSETS_PAGES=1,1,12784,20450,77,210,
 [OPENDOC|Aldec.BDE.7|.\lab5\src/zad04/zad04.bde|]
-SymbolsToolbox=0
-ZOOMOFSETS_PAGES=1,1,2560,5000,-41,-6,
+SymbolsToolbox=1
+ZOOMOFSETS_PAGES=1,1,2560,5000,-22,190,

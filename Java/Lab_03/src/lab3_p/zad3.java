@@ -9,6 +9,7 @@ public class zad3 {
         int x = los.nextInt(200)+1;
         int liczba;
 
+        System.out.println(x);
         do {
             System.out.print("Podaj liczbe: ");
             liczba = scanner.nextInt();

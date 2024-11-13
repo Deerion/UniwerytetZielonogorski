@@ -6,6 +6,7 @@ public class zad2 {
         Random r = new Random();
         int [][] tab1 = new int[7][7];
         int [][] tab2 = new int[2][7];
+
         int [][] tab3 = new int[7][7];
 
         /* ----------------------------------Min Max----------------------------------*/

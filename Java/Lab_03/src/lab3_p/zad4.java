@@ -9,6 +9,7 @@ public class zad4 {
             System.out.print("Podaj liczbe: ");
             int x = new java.util.Scanner(System.in).nextInt();
             if(x == 5){
+                liczby.add(x);
                 break;
             }else {
                 liczby.add(x);

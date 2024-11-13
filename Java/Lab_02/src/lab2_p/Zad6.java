@@ -10,7 +10,7 @@ public class Zad6 {
         if (48 < miesiace && miesiace <= 60) return 0.04;
         if (60 < miesiace && miesiace <= 72) return 0.05;
         if (72 < miesiace && miesiace <= 96) return 0.06;
-        throw new IllegalArgumentException("Liczba miesięcy poza nie miesci sie w zakresie (1 - 96).");
+        throw new IllegalArgumentException ("Liczba miesięcy poza nie miesci sie w zakresie (1 - 96).");
     }
 
     private static double obliczMiesiecznaRate(double calkowitaCena, double wkladWlasny, int miesiace) {

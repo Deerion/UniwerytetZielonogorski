@@ -1,0 +1,41 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=lab_06
+[Library]
+lab_06=.\lab_06\lab_06.lib
+[$LibMap$]
+lab_06=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+WireDelay=2
+[IMPLEMENTATION]
+UCF=
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+[Files]
+zad1/and_test.v=-1
+[Files.Data]
+.\src\zad1\and_test.v=Verilog Source Code
+[Groups]
+zad1=1
+[LocalVerilogSets]
+MonitoringOfEventsUDP=0
+InitialRegsValue=X
+HasInitialRegsValue=0
+EnableSLP=0
+SlpReuseModelEnable=0
+RandomNumberGeneratorSeedType=Default
+RandomNumberGeneratorValueSeed=1
