@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Zad6 {
 
-    private static double obliczOprocentowanie(int miesiace) {
+    public static double obliczOprocentowanie(int miesiace) {
         if (1 < miesiace && miesiace <= 24) return 0.02;
         if (24 < miesiace && miesiace <= 48) return 0.03;
         if (48 < miesiace && miesiace <= 60) return 0.04;
@@ -13,7 +13,7 @@ public class Zad6 {
         throw new IllegalArgumentException ("Liczba miesięcy poza nie miesci sie w zakresie (1 - 96).");
     }
 
-    private static double obliczMiesiecznaRate(double calkowitaCena, double wkladWlasny, int miesiace) {
+    public static double obliczMiesiecznaRate(double calkowitaCena, double wkladWlasny, int miesiace) {
         return ((calkowitaCena - wkladWlasny) * (1 + obliczOprocentowanie(miesiace))) / miesiace;
     }
 

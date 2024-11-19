@@ -11,7 +11,7 @@ public class zad3 {
 
         }
         for (int i = 11; i < 21; i++) {
-            tab1[i] = r.nextInt(4)+6;
+            tab1[i] = r.nextInt(5)+6;
         }
         for (int i = 21; i < 31; i++) {
             tab1[i] = r.nextInt(44)+11;

@@ -1,0 +1,25 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Built-in symbols=0
+lab_07=0
+[COMPILESTATUS|.\src\wyswietlacz.v]
+FileTimeLow=2215940642
+FileTimeHigh=31144356
+Status=Modified
+[COMPILESTATUS|.\src\zad_01\wyswietlacz.v]
+FileTimeLow=895449376
+FileTimeHigh=31144364
+Status=Modified
+[General]
+CurrentVersion=103
+[CACHEDOC|Aldec.Project.Generic.7|.\lab_07\lab_07.adf|]
+Path=/wyswietlacz
+[Gui config]
+RunFor=80 ns
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\lab_07\src/zad_01/wyswietlacz.v|]
+CurrentLine=40
+CurrentColumn=40
+Bookmarks=-1
+BookmarksLength=3
+ZoomFactor=0
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////8oAAACZAAAAuwQAAM4CAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAAAAAAAA=="

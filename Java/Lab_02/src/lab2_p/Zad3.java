@@ -15,5 +15,11 @@ public class Zad3 {
 
         System.out.println(ml + " mil to " + km + " Kilometrow");
 
+        /*
+        char znak;
+        znak = scanner.next().charAt(0);
+        System.out.println("Znak: " + znak);
+        */
+
     }
 }

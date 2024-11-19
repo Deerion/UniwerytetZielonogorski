@@ -1,11 +1,13 @@
 package lab2_p;
+import java.util.Scanner;
 
 public class Zad1 {
     public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
         int wysokosc;
         System.out.print("Podaj Wysokosc: ");
 
-        wysokosc = new java.util.Scanner(System.in).nextInt();
+        wysokosc = scanner.nextInt();
 
         for(int i=0;i<wysokosc;i++){
             for(int j=0; j < wysokosc - i;j++){

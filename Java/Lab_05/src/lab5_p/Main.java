@@ -1,11 +1,13 @@
 package lab5_p;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 import lab5_p.Samochod;
 import lab5_p.AutoKomis;
 
 public class Main {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         Samochod samochod1 = new Samochod("Opel", "Astra", 1.6, "Sedan", "Benzyna", 2010, 20000, "2021-01-01");
         Samochod samochod2 = new Samochod("Toyota", "Yaris", 1.0, "Hatchback", "Benzyna", 2015, 30000, "2022-01-01");
 

@@ -15,12 +15,18 @@ public class Zad4 {
         System.out.println("Wcisnij 'Enter' aby zakonczyc");
         while (true) {
             System.out.print("Podaj liczbę: ");
-            String input = scanner.nextLine();
+            String liczba = scanner.nextLine();
 
-            if (input.equalsIgnoreCase("")) {
+
+            /*
+            if (liczba.equalsIgnoreCase("")) {
                 break;
             }
-            x = Integer.parseInt(input);
+            */
+            if (liczba.isEmpty()) {
+                break;
+            }
+            x = Integer.parseInt(liczba);
 
             count++;
             sum += x;

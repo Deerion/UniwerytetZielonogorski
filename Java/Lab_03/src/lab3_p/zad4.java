@@ -1,13 +1,16 @@
 package lab3_p;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class zad4 {
 
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         ArrayList<Integer> liczby = new ArrayList<>();
+
         while(true){
             System.out.print("Podaj liczbe: ");
-            int x = new java.util.Scanner(System.in).nextInt();
+            int x = scanner.nextInt();
             if(x == 5){
                 liczby.add(x);
                 break;

@@ -21,7 +21,12 @@ public class zad1 {
                 }
             }
         }
-        System.out.println(isPrime ? "Liczba jest pierwsza" : "Liczba nie jest pierwsza");
+        if(isPrime) {
+            System.out.println("Liczba jest pierwsza");
+        } else {
+            System.out.println("Liczba nie jest pierwsza");
+        }
+
 
 
         ArrayList<Integer> parzyste = new ArrayList<>();

@@ -7,12 +7,15 @@ public class zad3 {
         Scanner scanner = new Scanner(System.in);
         Random los = new Random();
         int x = los.nextInt(200)+1;
+        String liczbatmp;
         int liczba;
 
         System.out.println(x);
         do {
             System.out.print("Podaj liczbe: ");
-            liczba = scanner.nextInt();
+            liczbatmp = scanner.nextLine();
+            liczba = Integer.parseInt(liczbatmp);
+
 
             if (liczba == x) {
                 System.out.print("Gratulacje! Wylosowana liczba to: " + x);
