@@ -1,30 +1,29 @@
-timestamp=1731928791469
+timestamp=1732227220704
 
 [~A]
-C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_07/lab_07/lab_07/src/zad_01/wyswietlacz.v=0*22426*23182
+C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_07/lab_07/lab_07/src/zad_01/wyswietlacz.v=0*55249*56229
 LastVerilogToplevel=wyswietlacz
-ModifyID=13
+ModifyID=30
 Version=74
 
 [~MFT]
-0=6|0lab_07.mgf|23182|17148
-1=4|1lab_07.mgf|21254|20880
-3=8|3lab_07.mgf|33607|31688
+0=6|0lab_07.mgf|56229|43069
+1=4|1lab_07.mgf|50923|50549
+3=8|3lab_07.mgf|83355|81779
 
 [$root]
-A/$root=22|||1*20880
-BinW64/$root=3*31688
-SLP=3*31803
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c921632ee73cac1a3120b6633c2f3df3a25f4
+A/$root=22|||1*50549
+BinW64/$root=3*81779
+SLP=3*81894
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c9216ad2ff8d4a76d2b7e6a99a51a0e413def
 
 [wyswietlacz]
-A/wyswietlacz=22|../src/zad_01/wyswietlacz.v|27|1*21254
-BinW64/wyswietlacz=3*31871
+A/wyswietlacz=22|../src/zad_01/wyswietlacz.v|27|1*50923
+BinW64/wyswietlacz=3*81962
 R=../src/zad_01/wyswietlacz.v|27
-SLP=3*33607
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|5b5eb7a0bbd989c064b3befd87b9d7858eb868e1702e6ad2839bf6fae6798bd05ed139b0b215dcc2479698af8ccc9943
+SLP=3*83355
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|5b5eb7a0bbd989c064b3befd87b9d7858eb868e1702e6ad2839bf6fae6798bd06d7bc77c4de0495a8441a5752fec3152
 
 [~U]
-$root=12|0*22020|
-wyswietlacz=12|0*22186||0x10
-
+$root=12|0*54843|
+wyswietlacz=12|0*55009||0x10

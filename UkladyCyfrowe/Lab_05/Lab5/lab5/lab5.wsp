@@ -66,5 +66,8 @@ lab5=0
 [Gui config]
 RunFor=500 ns
 [OPENDOC|Aldec.BDE.7|.\lab5\src/zad04/zad04.bde|]
-SymbolsToolbox=1
-ZOOMOFSETS_PAGES=1,1,2560,5000,-22,190,
+SymbolsToolbox=0
+ZOOMOFSETS_PAGES=1,1,2560,5000,-22,34,
+[OPENDOC|Aldec.BDE.7|.\lab5\src/zad03/zad03.bde|]
+SymbolsToolbox=0
+ZOOMOFSETS_PAGES=1,1,12784,20450,77,210,
