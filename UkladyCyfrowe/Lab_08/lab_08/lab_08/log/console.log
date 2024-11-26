@@ -1,0 +1,224 @@
+# Design: Design lab_08 already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: C-Synthesis: Not Defined
+# DESIGN: HDL Synthesis: Not Defined
+# DESIGN: Physical Synthesis: Not Defined
+# DESIGN: Implementation: Not Defined
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+acom -reorder -O3 -e 100 -work lab_08 -2002  $dsn/src/zad_1.bde
+# DRC: Checking file "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/src/zad_1.bde".
+# DRC: zad_1.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 52 millisecond(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/compile/zad_1.vhd from C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/src/zad_1.bde...
+# Generation successful
+# Compile Entity "zad_1"
+# Compile Architecture "zad_1" of Entity "zad_1"
+# Top-level unit(s) detected:
+# Entity => zad_1
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+zad_1 zad_1 zad_1
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6420 kB (elbread=427 elab2=5854 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Hubert Jarosz\Documents\GitHub\UniwersytetZielonogorski\UkladyCyfrowe\Lab_08\lab_08\lab_08\src\wave.asdb
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+#  11:55, poniedzia³ek, 25 listopada 2024
+#  Simulation has been initialized
+# VSIM: 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+acom -O3 -e 100 -work lab_08 -2002  $dsn/src/zad_2/zad_2.bde
+# DRC: Checking file "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/src/zad_2/zad_2.bde".
+# DRC: zad_2.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 92 millisecond(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/compile/zad_2.vhd from C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/src/zad_2/zad_2.bde...
+# Generation successful
+# Compile Entity "zad_2"
+# Compile Architecture "zad_2" of Entity "zad_2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+zad_2 zad_2 zad_2
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6420 kB (elbread=427 elab2=5854 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Hubert Jarosz\Documents\GitHub\UniwersytetZielonogorski\UkladyCyfrowe\Lab_08\lab_08\lab_08\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+#  12:05, poniedzia³ek, 25 listopada 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /zad_1/R not found in C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /zad_1/S not found in C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /zad_1/Q not found in C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /zad_1/Qn not found in C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/src/wave.asdb.
+# VSIM: 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/bde.set" file.

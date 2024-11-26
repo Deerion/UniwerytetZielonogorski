@@ -1,0 +1,36 @@
+Active-HDL 15.0.261.9132 2024-11-25 12:05:28
+
+Elaboration top modules:
+Architecture                  zad_2(zad_2)
+
+
+-------------------------------------------------------------------------------------------
+Entity   | Architecture | Library | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------
+zad_2    | zad_2        | lab_08  |      | 15.0.261.9132 (Windows64) | -O3
+-------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------
+VHDL Package            | Library | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------
+standard                | std     |      |                           | <unavailable>
+TEXTIO                  | std     |      | 15.0.261.9132 (Windows64) |  -2019
+std_logic_1164          | ieee    |      | 15.0.261.9132 (Windows64) |  -2008
+std_logic_arith         | ieee    |      | 15.0.261.9132 (Windows64) | <unavailable>
+STD_LOGIC_SIGNED        | ieee    |      | 15.0.261.9132 (Windows64) | <unavailable>
+STD_LOGIC_UNSIGNED      | ieee    |      | 15.0.261.9132 (Windows64) | <unavailable>
+-------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------
+Library                 | Comment
+-------------------------------------------------------------------------------------------
+ieee                    | Standard IEEE packages library
+lab_08                  | None
+std                     | Standard VHDL library
+-------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+zad_2 zad_2 zad_2
+
+
+The performance of simulation is reduced. Version Student Edition

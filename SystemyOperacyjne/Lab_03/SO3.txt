@@ -1,0 +1,54 @@
+1.	Get-Help Set-Location
+
+2.	Get-Service
+
+3.	Get-Process
+
+4.	Get-Process | Where-Object { $_.Id -gt 716 }
+
+5.	Get-Process | Where-Object { $_.pn -lt 5916 }
+
+6.	Get-Process | Where-Object { $_.Name -like "c*" }
+
+7.	Get-Service | Where-Object { $_.Status -eq 'Running' } | Format-List
+
+8.	Get-Service | Group-Object Status | Sort-Object Name
+
+9.	$path = "C:\PS"
+	New-Item -ItemType Directory -Path $path -Force
+	$topProcesses = Get-Process | Sort-Object PrivateMemorySize -Descending | Select-Object -First 10
+	$topProcesses | Out-File -FilePath "$path\TopProcesses.txt"
+
+10.	Get-Process | Sort-Object Id -D
+	Get-Process | Sort-Object Id -U
+
+11.	Get-Process | Get-Member
+
+12.	Get-Alias
+
+13.	Set-Alias -Name getprocessp -Value Get-Process
+
+14.	$Host.UI.RawUI.BackgroundColor = 'Black'
+	$Host.UI.RawUI.ForegroundColor = 'White'
+
+15.	$userInput = Read-Host "Wpisz coś"
+	Write-Host "Wprowadziłeś: $userInput"
+
+16.	1..10 | ForEach-Object {
+   	 # Generowanie losowej liczby
+    	$randomNumber = Get-Random -Minimum 1 -Maximum 100
+    
+    	# Losowy kolor z dostępnych opcji
+    	$color = Get-Random -InputObject @('Red', 'Green', 'Blue', 'Yellow', 'Magenta', 'Cyan', 'White')
+    
+   	 # Wyświetlenie liczby w losowym kolorze
+   	 Write-Host $randomNumber -ForegroundColor $color
+	}
+
+17.	Get-Command -CommandType Alias | Format-List
+
+18.	Get-Command | Where-Object { $_.CommandType -eq 'Cmdlet' -and $_.Definition -match 'process' }
+
+19.	Get-Help Get-Acl
+
+20.	Get-Content "C:\PS\TopProcesses.txt"
