@@ -1,54 +1,93 @@
-1.	Get-Help Set-Location
 
-2.	Get-Service
+1. Get-Help Set-Location
+Opis:
+Wyświetla dokumentację dotyczącą polecenia `Set-Location`. Polecenie `Set-Location` służy do zmiany bieżącego katalogu lub lokalizacji w środowisku PowerShell.
 
-3.	Get-Process
+2. Get-Service
+Opis:
+Wyświetla listę usług systemowych na komputerze lokalnym wraz z ich stanami, np. "Running" (uruchomiona), "Stopped" (zatrzymana).
 
-4.	Get-Process | Where-Object { $_.Id -gt 716 }
+3. Get-Process
+Opis:
+Pobiera listę procesów uruchomionych na komputerze, wyświetlając takie informacje jak nazwa procesu, ID, zużycie pamięci itp.
 
-5.	Get-Process | Where-Object { $_.pn -lt 5916 }
+4. Get-Process | Where-Object { $_.Id -gt 716 }
+Opis:
+Filtruje procesy, wyświetlając tylko te, których identyfikator procesu (ID) jest większy niż 716.
 
-6.	Get-Process | Where-Object { $_.Name -like "c*" }
+5. Get-Process | Where-Object { $_.pn -lt 5916 }
+Opis:
+Filtruje procesy, wyświetlając tylko te, których numer portu lub ID procesu (pn) jest mniejszy niż 5916.
 
-7.	Get-Service | Where-Object { $_.Status -eq 'Running' } | Format-List
+6. Get-Process | Where-Object { $_.Name -like "c*" }
+Opis:
+Filtruje procesy, wyświetlając tylko te, których nazwa zaczyna się na literę "c".
 
-8.	Get-Service | Group-Object Status | Sort-Object Name
+7. Get-Service | Where-Object { $_.Status -eq 'Running' } | Format-List
+Opis:
+Wyświetla listę usług, które mają stan "Running" (uruchomione), w formacie szczegółowej listy.
 
-9.	$path = "C:\PS"
-	New-Item -ItemType Directory -Path $path -Force
-	$topProcesses = Get-Process | Sort-Object PrivateMemorySize -Descending | Select-Object -First 10
-	$topProcesses | Out-File -FilePath "$path\TopProcesses.txt"
+8. Get-Service | Group-Object Status | Sort-Object Name
+Opis:
+Grupuje usługi według ich stanu (np. "Running" lub "Stopped"), a następnie sortuje grupy według nazwy.
 
-10.	Get-Process | Sort-Object Id -D
-	Get-Process | Sort-Object Id -U
+9. $path = "C:\PS"
+New-Item -ItemType Directory -Path $path -Force
+$topProcesses = Get-Process | Sort-Object PrivateMemorySize -Descending | Select-Object -First 10
+$topProcesses | Out-File -FilePath "$path\TopProcesses.txt"
+Opis:
+Tworzy katalog "C:\PS", jeśli jeszcze nie istnieje. Następnie zapisuje 10 procesów zużywających najwięcej pamięci prywatnej do pliku "TopProcesses.txt".
 
-11.	Get-Process | Get-Member
+10. Get-Process | Sort-Object Id -D
+Get-Process | Sort-Object Id -U
+Opis:
+Sortuje listę procesów według ich ID. "-D" sortuje malejąco, a "-U" sortuje rosnąco.
 
-12.	Get-Alias
+11. Get-Process | Get-Member
+Opis:
+Wyświetla właściwości i metody dostępne dla obiektu procesu.
 
-13.	Set-Alias -Name getprocessp -Value Get-Process
+12. Get-Alias
+Opis:
+Wyświetla listę aliasów dostępnych w PowerShell, np. aliasy dla poleceń cmdlet.
 
-14.	$Host.UI.RawUI.BackgroundColor = 'Black'
-	$Host.UI.RawUI.ForegroundColor = 'White'
+13. Set-Alias -Name getprocessp -Value Get-Process
+Opis:
+Tworzy alias o nazwie "getprocessp", który wskazuje na polecenie `Get-Process`.
 
-15.	$userInput = Read-Host "Wpisz coś"
-	Write-Host "Wprowadziłeś: $userInput"
+14. $Host.UI.RawUI.BackgroundColor = 'Black'
+$Host.UI.RawUI.ForegroundColor = 'White'
+Opis:
+Zmienia kolor tła konsoli na czarny, a kolor tekstu na biały.
 
-16.	1..10 | ForEach-Object {
-   	 # Generowanie losowej liczby
-    	$randomNumber = Get-Random -Minimum 1 -Maximum 100
-    
-    	# Losowy kolor z dostępnych opcji
-    	$color = Get-Random -InputObject @('Red', 'Green', 'Blue', 'Yellow', 'Magenta', 'Cyan', 'White')
-    
-   	 # Wyświetlenie liczby w losowym kolorze
-   	 Write-Host $randomNumber -ForegroundColor $color
-	}
+15. $userInput = Read-Host "Wpisz coś"
+Write-Host "Wprowadziłeś: $userInput"
+Opis:
+Prosi użytkownika o wpisanie tekstu, a następnie wyświetla wprowadzone dane.
 
-17.	Get-Command -CommandType Alias | Format-List
+16. 1..10 | ForEach-Object {
+# Generowanie losowej liczby
+$randomNumber = Get-Random -Minimum 1 -Maximum 100
+# Losowy kolor z dostępnych opcji
+$color = Get-Random -InputObject @('Red', 'Green', 'Blue', 'Yellow', 'Magenta', 'Cyan', 'White')
+# Wyświetlenie liczby w losowym kolorze
+Write-Host $randomNumber -ForegroundColor $color
+}
+Opis:
+Generuje 10 losowych liczb w zakresie od 1 do 100 i wyświetla je w losowych kolorach.
 
-18.	Get-Command | Where-Object { $_.CommandType -eq 'Cmdlet' -and $_.Definition -match 'process' }
+17. Get-Command -CommandType Alias | Format-List
+Opis:
+Wyświetla szczegółowe informacje o aliasach dostępnych w systemie.
 
-19.	Get-Help Get-Acl
+18. Get-Command | Where-Object { $_.CommandType -eq 'Cmdlet' -and $_.Definition -match 'process' }
+Opis:
+Filtruje polecenia typu Cmdlet, które mają w swojej definicji słowo "process".
 
-20.	Get-Content "C:\PS\TopProcesses.txt"
+19. Get-Help Get-Acl
+Opis:
+Wyświetla pomoc dotyczącą polecenia `Get-Acl`, które pobiera listę kontroli dostępu (ACL) obiektów.
+
+20. Get-Content "C:\PS\TopProcesses.txt"
+Opis:
+Odczytuje zawartość pliku "TopProcesses.txt" w lokalizacji "C:\PS".
