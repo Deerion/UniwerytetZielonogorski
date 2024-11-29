@@ -2,7 +2,7 @@
 <design-settings>
 	<plugins>
 		<Aldec.Stimuli.1>
-			<hierarchy activeStimuliSetName="StimuliSet2">
+			<hierarchy activeStimuliSetName="StimuliSet5">
 				<stimuliSet name="StimuliSet1">
 					<stimulus name="R" strength="default" enabled="true" type="clock">
 						<stimulus_data>
@@ -68,6 +68,92 @@
 						</stimulus_data>
 						<signals>
 							<signal path="/zad_2/nR"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet3">
+					<stimulus name="D" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="50ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/zad_3/D"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Clk" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="75ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="high"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/zad_3/Clk"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet4">
+					<stimulus name="Reset" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="100ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/zad_4/Reset"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet5">
+					<stimulus name="Clk" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="100ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/zad_5/Clk"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Reset" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="100ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/zad_5/Reset"/>
 						</signals>
 					</stimulus>
 				</stimuliSet>

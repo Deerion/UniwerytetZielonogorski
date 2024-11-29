@@ -18,27 +18,44 @@ FLOWTOOLS=ONLY_IMPL
 ON_SERVERFARM_SYNTH=0
 ON_SERVERFARM_IMPL=0
 ON_SERVERFARM_SIM=0
+WireDelay=2
 [IMPLEMENTATION]
 UCF=
 [Files]
-/zad_3.bde=-1
 zad_1/zad_1.bde=-1
 zad_2/zad_2.bde=-1
+zad_3/zad_3.bde=-1
+zad_4/zad_4.v=-1
+zad_5/zad_5.v=-1
 [Files.Data]
-.\src\zad_3.bde=Block Diagram
 .\src\zad_1\zad_1.bde=Block Diagram
 .\src\zad_2\zad_2.bde=Block Diagram
+.\src\zad_3\zad_3.bde=Block Diagram
+.\src\zad_4\zad_4.v=Verilog Source Code
+.\src\zad_5\zad_5.v=Verilog Source Code
 [file_out:/zad_1.bde]
 /..\compile\zad_1.vhd=-1
 [file_out:zad_1/zad_1.bde]
 zad_1/..\..\compile\zad_1.vhd=-1
 [file_out:zad_2/zad_2.bde]
 zad_2/..\..\compile\zad_2.vhd=-1
+[HierarchyViewer]
+HierarchyInformation=zad_2|zad_2|0 zad_3|zad_3|0
+ShowHide=ShowTopLevel
+Selected=
+[file_out:zad_3/zad_3.bde]
+zad_3/..\..\compile\zad_3.vhd=-1
+[LocalVerilogSets]
+MonitoringOfEventsUDP=0
+InitialRegsValue=X
+HasInitialRegsValue=0
+EnableSLP=0
+SlpReuseModelEnable=0
+RandomNumberGeneratorSeedType=Default
+RandomNumberGeneratorValueSeed=1
 [Groups]
 zad_1=1
 zad_2=1
 zad_3=1
-[HierarchyViewer]
-HierarchyInformation=zad_1|zad_1|0 zad_2|zad_2|0
-ShowHide=ShowTopLevel
-Selected=
+zad_4=1
+zad_5=1

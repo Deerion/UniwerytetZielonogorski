@@ -1,13 +1,22 @@
-timestamp=1732532722745
+timestamp=1732871567557
 
 [~A]
-ModifyID=6
+C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/src/zad_4/zad_4.v=0*5239*5812
+C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/src/zad_5/zad_5.v=0*6835*7456
+LastVerilogToplevel=zad_5
+ModifyID=11
 Version=74
 
 [~MFT]
-0=7|0lab_08.mgf|2829|0
-1=1|1lab_08.mgf|1003|0
-3=1|3lab_08.mgf|426|0
+0=4|0lab_08.mgf|7456|0
+1=3|1lab_08.mgf|5001|374
+3=6|3lab_08.mgf|2926|183
+
+[$root]
+A/$root=22|||1*4627
+BinW64/$root=3*2132
+SLP=3*2247
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c92163c9652e68ef0edacd457b43885da7688
 
 [zad_1]
 A/zad_1=24|../src/zad_1.bde|10000|1*0
@@ -33,6 +42,36 @@ R/zad_2=../compile/zad_2.vhd|36
 Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|66a1b09aacab589ddac4b82b1faaec8198a8538bf677effcd00f4882ec0e1b36
 Version/zad_2=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|66a1b09aacab589ddac4b82b1faaec816ea3a85399ef9687c0fc5c9160262e99
 
+[zad_3]
+A/zad_3=24|../src/zad_3/zad_3.bde|10000|1*2008
+BinW64/zad_3=3*850
+I=0*3736
+I/zad_3=0*4555
+M=11|2|vf5|1732869944527|../compile/zad_3.vhd|0*3320*0x7213be6a95694b7f5fa3f1884bd9d9d655108246|0*3657*0x23b75c12e3e89f2ef000564498faa8c2
+M/zad_3=21|2|vf5|1732869944530|../compile/zad_3.vhd|0*4043*0x267762dedd71067bbb5cf0d9479d324b0f02d621|0*4467*0x20116f55b147878295aeff36dce7fc50
+R=../compile/zad_3.vhd|27
+R/zad_3=../compile/zad_3.vhd|36
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|d8c3a7d678cc37c291e9251ad0d1e800b621209c4e0b43eb73d5dc90d0cbc305
+Version/zad_3=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|d8c3a7d678cc37c291e9251ad0d1e800b621209c4e0b43eb73d5dc90d0cbc305
+
+[zad_4]
+A/zad_4=22|../src/zad_4/zad_4.v|27|1*3519
+BinW64/zad_4=3*1552
+R=../src/zad_4/zad_4.v|27
+SLP=3*1923
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|2247d803b7cedc53e668199a6f4dbf48f6fbe694281321191dc592876470adda
+
+[zad_5]
+A/zad_5=22|../src/zad_5/zad_5.v|27|1*5001
+BinW64/zad_5=3*2315
+R=../src/zad_5/zad_5.v|27
+SLP=3*2926
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|72e6f58bdb315b5680816296fba13051e20ca3beea3e7fcbfe464b94ce201ffe
+
 [~U]
+$root=12|0*6458|
 zad_1=11|0*0|
 zad_2=11|0*1569|
+zad_3=11|0*3142|
+zad_4=12|0*5034||0x10
+zad_5=12|0*6624||0x10

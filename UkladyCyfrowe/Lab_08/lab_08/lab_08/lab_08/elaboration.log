@@ -1,36 +1,23 @@
-Active-HDL 15.0.261.9132 2024-11-25 12:05:28
+Active-HDL 15.0.261.9132 2024-11-29 10:12:53
 
 Elaboration top modules:
-Architecture                  zad_2(zad_2)
+Verilog Module                zad_5
 
 
 -------------------------------------------------------------------------------------------
-Entity   | Architecture | Library | Info | Compiler Version          | Compilation Options
+Verilog Module          | Library | Info | Compiler Version          | Compilation Options
 -------------------------------------------------------------------------------------------
-zad_2    | zad_2        | lab_08  |      | 15.0.261.9132 (Windows64) | -O3
--------------------------------------------------------------------------------------------
-
--------------------------------------------------------------------------------------------
-VHDL Package            | Library | Info | Compiler Version          | Compilation Options
--------------------------------------------------------------------------------------------
-standard                | std     |      |                           | <unavailable>
-TEXTIO                  | std     |      | 15.0.261.9132 (Windows64) |  -2019
-std_logic_1164          | ieee    |      | 15.0.261.9132 (Windows64) |  -2008
-std_logic_arith         | ieee    |      | 15.0.261.9132 (Windows64) | <unavailable>
-STD_LOGIC_SIGNED        | ieee    |      | 15.0.261.9132 (Windows64) | <unavailable>
-STD_LOGIC_UNSIGNED      | ieee    |      | 15.0.261.9132 (Windows64) | <unavailable>
+zad_5                   | lab_08  |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
 -------------------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------------------
 Library                 | Comment
 -------------------------------------------------------------------------------------------
-ieee                    | Standard IEEE packages library
 lab_08                  | None
-std                     | Standard VHDL library
 -------------------------------------------------------------------------------------------
 
 
-Simulation Options: asim -O5 +access +r +m+zad_2 zad_2 zad_2
+Simulation Options: asim -O2 +access +r +m+zad_5 zad_5
 
 
 The performance of simulation is reduced. Version Student Edition
