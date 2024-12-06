@@ -93,28 +93,16 @@ public class Samochod {
         return marka + " " + model + " " + pojemnoscSilnika + " " + typNadwozie + " " + typSilnika + " " + rokProdukcji + " " + cena + " " + dataPierwszejRejestracji;
     }
 
-    public String czyMaGwarancje() {
-
+    public static void czyMaGwarancje(Samochod samochod) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-        LocalDate dataRejestracji;
-        try {
-            dataRejestracji = LocalDate.parse(dataPierwszejRejestracji, formatter);
-        } catch (DateTimeParseException e) {
-            return "Nieprawidłowa data rejestracji.";
-        }
-
-
+        LocalDate dataPierwszejRejestracji = LocalDate.parse(samochod.getDataPierwszejRejestracji(), formatter);
+        LocalDate dataKoncaGwarancji = dataPierwszejRejestracji.plusYears(2);
         LocalDate dzisiaj = LocalDate.now();
-        int wiekSamochodu = dzisiaj.getYear() - dataRejestracji.getYear();
-        if (dzisiaj.getDayOfYear() < dataRejestracji.getDayOfYear()) {
-            wiekSamochodu--;
-        }
-
-
-        if (wiekSamochodu <= 2) {
-            return "Samochód ma jeszcze gwarancję.";
+        if (dzisiaj.isBefore(dataKoncaGwarancji)) {
+            System.out.println(samochod.wyswietl() + " Samochód ma gwarancję");
         } else {
-            return "Samochód nie ma już gwarancji.";
+            System.out.println(samochod.wyswietl() + " Samochód nie ma gwarancji");
         }
+
     }
 }

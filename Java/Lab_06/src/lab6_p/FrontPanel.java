@@ -1,8 +1,10 @@
 package lab6_p;
+import lab6_p.Wykonawcze.*;
+import lab6_p.komponenty.*;
 
 public class FrontPanel {
     public FrontPanel() {
-        System.out.println("Front Panel Pralki");
+        System.out.println("Front Panel Pralki (wlacz/wylacz)");
         String uruchom;
         uruchom = new java.util.Scanner(System.in).nextLine();
         if( uruchom.equals("wlacz") ) {
@@ -16,10 +18,11 @@ public class FrontPanel {
         }
     }
     public void wlacz() {
-        System.out.println("Włączono pralkę");
+        System.out.print("Włączono pralkę, ");
+        
     }
     public void wylacz() {
-        System.out.println("Wyłączono pralkę");
+
     }
 
 }

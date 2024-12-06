@@ -7,9 +7,9 @@
 --
 -------------------------------------------------------------------------------
 --
--- File        : C:\Users\Martyna\Desktop\Lab_08\lab_08\lab_08\compile\zad_1.vhd
--- Generated   : Mon Dec  2 12:12:39 2024
--- From        : C:\Users\Martyna\Desktop\Lab_08\lab_08\lab_08\src\zad_1\zad_1.bde
+-- File        : C:\Users\Martyna\Desktop\Lab_08\lab_08\lab_08\compile\zad_06.vhd
+-- Generated   : Mon Dec  2 12:12:40 2024
+-- From        : C:\Users\Martyna\Desktop\Lab_08\lab_08\lab_08\src\zad_6\zad_06.bde
 -- By          : Bde2Vhdl ver. 2.6
 --
 -------------------------------------------------------------------------------
@@ -24,33 +24,44 @@ use IEEE.std_logic_arith.all;
 use IEEE.std_logic_signed.all;
 use IEEE.std_logic_unsigned.all;
 
-entity zad_1 is
+entity zad_06 is
   port(
-       R : in STD_LOGIC;
-       S : in STD_LOGIC;
-       Q : out STD_LOGIC;
-       Qn : out STD_LOGIC
+       Reset : in STD_LOGIC;
+       Clk : in STD_LOGIC;
+       y : buffer STD_LOGIC
   );
-end zad_1;
+end zad_06;
 
-architecture zad_1 of zad_1 is
+architecture zad_06 of zad_06 is
+
+---- Component declarations -----
+
+component zad_4
+  port(
+       Q : out STD_LOGIC;
+       Clk : in STD_LOGIC;
+       Reset : in STD_LOGIC;
+       D : in STD_LOGIC
+  );
+end component;
 
 ---- Signal declarations used on the diagram ----
 
-signal NET693 : STD_LOGIC;
-signal NET710 : STD_LOGIC;
+signal NET676 : STD_LOGIC;
 
 begin
 
 ----  Component instantiations  ----
 
-Q <= NET693;
+U1 : zad_4
+  port map(
+       Q => y,
+       Clk => Clk,
+       Reset => Reset,
+       D => NET676
+  );
 
-Qn <= NET710;
-
-NET693 <= not(NET710 or R);
-
-NET710 <= not(S or NET693);
+NET676 <= not(y);
 
 
-end zad_1;
+end zad_06;

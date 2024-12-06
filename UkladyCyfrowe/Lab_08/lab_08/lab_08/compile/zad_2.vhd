@@ -7,9 +7,9 @@
 --
 -------------------------------------------------------------------------------
 --
--- File        : C:\Users\Hubert Jarosz\Documents\GitHub\UniwersytetZielonogorski\UkladyCyfrowe\Lab_08\lab_08\lab_08\compile\zad_2.vhd
--- Generated   : Mon Nov 25 12:05:22 2024
--- From        : C:\Users\Hubert Jarosz\Documents\GitHub\UniwersytetZielonogorski\UkladyCyfrowe\Lab_08\lab_08\lab_08\src\zad_2\zad_2.bde
+-- File        : C:\Users\Martyna\Desktop\Lab_08\lab_08\lab_08\compile\zad_2.vhd
+-- Generated   : Mon Dec  2 12:12:39 2024
+-- From        : C:\Users\Martyna\Desktop\Lab_08\lab_08\lab_08\src\zad_2\zad_2.bde
 -- By          : Bde2Vhdl ver. 2.6
 --
 -------------------------------------------------------------------------------
