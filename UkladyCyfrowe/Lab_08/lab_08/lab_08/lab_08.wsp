@@ -7,9 +7,9 @@ FileTimeLow=424623815
 FileTimeHigh=31147179
 Status=Compiled
 [COMPILESTATUS|.\src\zad_1\zad_1.bde]
-FileTimeLow=246877744
-FileTimeHigh=31145761
-Status=Compiled
+FileTimeLow=4047091483
+FileTimeHigh=31148442
+Status=Modified
 [COMPILESTATUS|.\src\zad_2.bde]
 FileTimeLow=2437359401
 FileTimeHigh=31145769
@@ -35,7 +35,7 @@ PROBEBAL=0
 [General]
 CurrentVersion=103
 [CACHEDOC|Aldec.Project.Generic.7|.\lab_08\lab_08.adf|]
-Path=/zad_06
+Path=/zad_7
 [COMPILESTATUS|.\src\zad_3\zad_3.bde]
 FileTimeLow=2921450384
 FileTimeHigh=31146546
@@ -69,20 +69,34 @@ Status=Modified
 [COMPILESTATUS|.\src\zad_6\zad_06.bde]
 FileTimeLow=3679982176
 FileTimeHigh=31147179
-Status=Modified
+Status=Compiled
 [COMPILESTATUS|.\compile\zad_06.vhd]
-FileTimeLow=440079679
-FileTimeHigh=31147179
+FileTimeLow=317059879
+FileTimeHigh=31148441
 Status=Compiled
 [CACHEDOC|Aldec.BDE.7|.\lab_08\src/zad_6/zad_06.bde|]
 PROBEBAL=1
+[COMPILESTATUS|.\src\zad_7.bde]
+FileTimeLow=3190314266
+FileTimeHigh=31148438
+Status=Modified
+[COMPILESTATUS|.\src\zad_7\zad_7.bde]
+FileTimeLow=304012965
+FileTimeHigh=31148441
+Status=Compiled
+[COMPILESTATUS|.\compile\zad_7.vhd]
+FileTimeLow=322072853
+FileTimeHigh=31148441
+Status=Compiled
 [CACHESIMPLE|Aldec.SymbolsCommands.7]
 Built-in symbols=1
 lab_08=0
+[CACHEDOC|Aldec.BDE.7|.\lab_08\src/zad_7/zad_7.bde|]
+PROBEBAL=0
 [Gui config]
-RunFor=80 ns
+RunFor=100 ns
 [OPENDOC|Aldec.Hde.HdePlugIn.7|.\lab_08\src/zad_4/zad_4.v|]
-CurrentLine=0
+CurrentLine=26
 CurrentColumn=0
 Bookmarks=-1
 BookmarksLength=3
@@ -98,14 +112,17 @@ ZoomFactor=0
 Frame=0
 WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////8oAAAB9AAAAuwQAAM4CAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAAAAAAAA=="
 [OPENDOC|Aldec.BDE.7|.\lab_08\src/zad_1/zad_1.bde|]
-SymbolsToolbox=1
+SymbolsToolbox=0
 ZOOMOFSETS_PAGES=1,1,1,2,26,37,
 [OPENDOC|Aldec.BDE.7|.\lab_08\src/zad_2/zad_2.bde|]
-SymbolsToolbox=1
+SymbolsToolbox=0
 ZOOMOFSETS_PAGES=1,1,1,2,50,50,
 [OPENDOC|Aldec.BDE.7|.\lab_08\src/zad_3/zad_3.bde|]
-SymbolsToolbox=1
+SymbolsToolbox=0
 ZOOMOFSETS_PAGES=1,1,1,2,74,-29,
 [OPENDOC|Aldec.BDE.7|.\lab_08\src/zad_6/zad_06.bde|]
-SymbolsToolbox=1
+SymbolsToolbox=0
 ZOOMOFSETS_PAGES=1,1,1,2,106,62,
+[OPENDOC|Aldec.BDE.7|.\lab_08\src/zad_7/zad_7.bde|]
+SymbolsToolbox=0
+ZOOMOFSETS_PAGES=1,1,1,2,-22,50,
