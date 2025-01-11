@@ -1,6 +1,3 @@
-[CACHESIMPLE|Aldec.SymbolsCommands.7]
-Built-in symbols=0
-lab_07=0
 [COMPILESTATUS|.\src\wyswietlacz.v]
 FileTimeLow=2215940642
 FileTimeHigh=31144356
@@ -8,18 +5,38 @@ Status=Modified
 [COMPILESTATUS|.\src\zad_01\wyswietlacz.v]
 FileTimeLow=3604087917
 FileTimeHigh=31145058
-Status=Modified
+Status=Compiled
 [General]
 CurrentVersion=103
 [CACHEDOC|Aldec.Project.Generic.7|.\lab_07\lab_07.adf|]
 Path=/wyswietlacz
+[COMPILESTATUS|.\src\Zad_02.bde]
+FileTimeLow=958155553
+FileTimeHigh=31149468
+Status=Modified
+[COMPILESTATUS|.\src\Zad_02\Zad_02.bde]
+FileTimeLow=3293544904
+FileTimeHigh=31149476
+Status=Modified
+[COMPILESTATUS|.\compile\Zad_02.vhd]
+FileTimeLow=3016533066
+FileTimeHigh=31149472
+Status=Modified
+[CACHEDOC|Aldec.BDE.7|.\lab_07\src/Zad_02/Zad_02.bde|]
+PROBEBAL=0
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Built-in symbols=1
+lab_07=0
 [Gui config]
 RunFor=80 ns
 [OPENDOC|Aldec.Hde.HdePlugIn.7|.\lab_07\src/zad_01/wyswietlacz.v|]
-CurrentLine=63
-CurrentColumn=52
+CurrentLine=72
+CurrentColumn=97
 Bookmarks=-1
 BookmarksLength=3
 ZoomFactor=-3
 Frame=0
 WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////8oAAACZAAAAuwQAAM4CAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAAAAAAAA=="
+[OPENDOC|Aldec.BDE.7|.\lab_07\src/Zad_02/Zad_02.bde|]
+SymbolsToolbox=1
+ZOOMOFSETS_PAGES=1,1,4000,6400,155,-145,

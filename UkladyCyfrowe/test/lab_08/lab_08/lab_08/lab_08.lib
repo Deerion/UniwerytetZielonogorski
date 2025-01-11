@@ -1,0 +1,110 @@
+timestamp=1734345494944
+
+[~A]
+C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/src/zad_4/zad_4.v=0*4287*4860
+C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/src/zad_4/zad_4.v_zad_5.v=0*9898*10575
+C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_08/lab_08/lab_08/src/zad_5/zad_5.v=0*5506*6127
+C:/Users/Martyna/Desktop/Lab_08/lab_08/lab_08/src/zad_4/zad_4.v=0*6773*7244
+C:/Users/Martyna/Desktop/Lab_08/lab_08/lab_08/src/zad_4/zad_4.v_zad_5.v=0*8787*9362
+C:/Users/Martyna/Desktop/Lab_08/lab_08/lab_08/src/zad_5/zad_5.v=0*7756*8275
+LastVerilogToplevel=zad_5
+ModifyID=32
+Version=74
+
+[~MFT]
+0=0|0lab_08.mgf|15510|0
+1=0|1lab_08.mgf|6918|0
+2=0|2lab_08.mgf|1845|0
+3=0|3lab_08.mgf|3387|0
+
+[$root]
+A/$root=22|||1*0
+BinW64/$root=3*0
+SLP=3*115
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c9216b45ece7bd8d06c6f7e0f6b2b6c5c9651
+
+[zad_06]
+A/zad_06=24|../src/zad_6/zad_06.bde|10000|1*374
+BinW64/zad_06=3*183
+I=0*11595
+I/zad_06=0*11903
+M=11|2|vf5|1733137960919|../compile/zad_06.vhd|0*1246*0x04ed0bc1055c2c3dc805efe7a2637972dc96625e|0*1571*0x23b75c12e3e89f2ef000564498faa8c2
+M/zad_06=21|2|vf5|1733679974088|../compile/zad_06.vhd|0*2884*0x8b16712dcb9c38d24053a531eac9509aed14247f|0*3253*0x20116f55b147878295aeff36dce7fc50
+R=../compile/zad_06.vhd|27
+R/zad_06=../compile/zad_06.vhd|35
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|850713630e68c4f02f59ef6b2b0971c2dc66469f90c14fe734556d73985bd93c
+Version/zad_06=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|850713630e68c4f02f59ef6b2b0971c2b93b3d6607adc45b8ce632856a010d3c
+
+[zad_1]
+A/zad_1=24|../src/zad_1/zad_1.bde|10000|1*1584
+BinW64/zad_1=3*423
+I=0*12394
+I/zad_1=0*12701
+M=11|2|vf5|1732532130845|../compile/zad_1.vhd|0*0*0x5142a3b03acf3d8e9bd01b433bf3a88606783b21|0*335*0x23b75c12e3e89f2ef000564498faa8c2
+M/zad_1=21|2|vf5|1733679970466|../compile/zad_1.vhd|0*1652*0xd105d17208eb18e15b64e2a3b17225433518049d|0*1923*0x20116f55b147878295aeff36dce7fc50
+R=../compile/zad_1.vhd|27
+R/zad_1=../compile/zad_1.vhd|36
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|d9b2b8f5d10b7c9c2f6e451c582e574673ed1fecb1656a03be7fdaaaf69352f6
+Version/zad_1=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|d9b2b8f5d10b7c9c2f6e451c582e574679ba0a412b062a9f97a5d88b3c7c5952
+
+[zad_2]
+A/zad_2=24|../src/zad_2/zad_2.bde|10000|1*2587
+BinW64/zad_2=3*849
+I=0*13190
+I/zad_2=0*13497
+M=11|2|vf5|1732532722648|../compile/zad_2.vhd|0*414*0xe26670605f9783ec9a2d27cc5295736abce06531|0*751*0x23b75c12e3e89f2ef000564498faa8c2
+M/zad_2=21|2|vf5|1733679970548|../compile/zad_2.vhd|0*2011*0x23121eb7a5b3e103833071456e2d520f30fbb540|0*2284*0x20116f55b147878295aeff36dce7fc50
+R=../compile/zad_2.vhd|27
+R/zad_2=../compile/zad_2.vhd|36
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|66a1b09aacab589ddac4b82b1faaec8198a8538bf677effcd00f4882ec0e1b36
+Version/zad_2=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|66a1b09aacab589ddac4b82b1faaec8193389223fa7831be26be7f6c12b2f830
+
+[zad_3]
+A/zad_3=24|../src/zad_3/zad_3.bde|10000|1*3592
+BinW64/zad_3=3*1273
+I=0*13988
+I/zad_3=0*14295
+M=11|2|vf5|1732869944527|../compile/zad_3.vhd|0*830*0x7213be6a95694b7f5fa3f1884bd9d9d655108246|0*1167*0x23b75c12e3e89f2ef000564498faa8c2
+M/zad_3=21|2|vf5|1733679970595|../compile/zad_3.vhd|0*2372*0x267762dedd71067bbb5cf0d9479d324b0f02d621|0*2796*0x20116f55b147878295aeff36dce7fc50
+R=../compile/zad_3.vhd|27
+R/zad_3=../compile/zad_3.vhd|36
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|d8c3a7d678cc37c291e9251ad0d1e800b621209c4e0b43eb73d5dc90d0cbc305
+Version/zad_3=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|d8c3a7d678cc37c291e9251ad0d1e800913f4098e6c169f95784c46b53aa306f
+
+[zad_4]
+A/zad_4=22|../src/zad_4/zad_4.v|27|1*4729
+BinW64/zad_4=3*1792
+NSymbols/zad_4=40|0|2*0
+R=../src/zad_4/zad_4.v|27
+SLP=3*2163
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|2247d803b7cedc53e668199a6f4dbf4864a579a6d68704e2d55ce6023e294f49
+
+[zad_5]
+A/zad_5=22|../src/zad_5/zad_5.v|27|1*5837
+BinW64/zad_5=3*2372
+NSymbols/zad_5=40|0|2*1845
+R=../src/zad_5/zad_5.v|27
+SLP=3*2983
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|72e6f58bdb315b5680816296fba13051f1383f1cbca08b395d0a9a75b21d22a8
+
+[zad_7]
+A/zad_7=24|../src/zad_7/zad_7.bde|10000|1*6918
+BinW64/zad_7=3*3387
+I=0*15203
+I/zad_7=0*15510
+M=11|2|vf5|1733679974134|../compile/zad_7.vhd|0*3344*0xad0ffe21a6ccec5e0e90856991a4804b52543e52|0*3665*0x23b75c12e3e89f2ef000564498faa8c2
+M/zad_7=21|2|vf5|1733679974136|../compile/zad_7.vhd|0*3744*0xbc48afb7f57309aba1cc5fa2f4da6671ebde3def|0*4199*0x20116f55b147878295aeff36dce7fc50
+R=../compile/zad_7.vhd|27
+R/zad_7=../compile/zad_7.vhd|35
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|78568ce1348ac2981ea0c1db41470eb4587bcabefcf3ed7636fe254530e89d55
+Version/zad_7=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|78568ce1348ac2981ea0c1db41470eb4587bcabefcf3ed7636fe254530e89d55
+
+[~U]
+$root=12|0*11245|
+zad_06=11|0*11411|
+zad_1=11|0*12218|
+zad_2=11|0*13014|
+zad_3=11|0*13810|
+zad_4=12|0*14608||0x13
+zad_5=12|0*14813||0x13
+zad_7=11|0*15024|

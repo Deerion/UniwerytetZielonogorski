@@ -31,11 +31,16 @@ RandomNumberGeneratorSeedType=Default
 RandomNumberGeneratorValueSeed=1
 [Files]
 zad_01/wyswietlacz.v=-1
+Zad_02/Zad_02.bde=-1
 [Files.Data]
 .\src\zad_01\wyswietlacz.v=Verilog Source Code
-[Groups]
-zad_01=1
+.\src\Zad_02\Zad_02.bde=Block Diagram
 [HierarchyViewer]
-HierarchyInformation=
+HierarchyInformation=zad_02|zad_02|0
 ShowHide=ShowTopLevel
 Selected=
+[Groups]
+zad_01=1
+Zad_02=1
+[file_out:Zad_02/Zad_02.bde]
+Zad_02/..\..\compile\Zad_02.vhd=-1

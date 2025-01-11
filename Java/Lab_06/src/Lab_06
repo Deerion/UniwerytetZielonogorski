@@ -1,0 +1,46 @@
+1. Korzystając z obiektowego modelu programowania należy zaprojektować oraz
+wykonać implementację kodu realizującego symulację funkcjonalności pralki
+automatycznej. Należy wykonać API sterujące pralką oraz zrealizować poniższe
+założenia projektowe.
+Pralka składa się z komponentów takich jak:
+ grzałka do wody,
+ pojemnik na ubrania (bęben),
+ pojemnik na detergenty (płyn do płukania oraz proszek do prania),
+ filtr wody,
+oraz elementów wykonawczych takich jak:
+ pompa do wody,
+ czujniki,
+ elektrozawory wodne,
+ silnik inwerterowy,
+ sterownik regulujący prędkość obrotową,
+ panel przedni posiadający włącznik on/off oraz wyświetlacz informujący o
+stanie urządzenia.
+Pralka posiada interfejs dotykowy odpowiedzialny za sterowanie urządzeniem.
+Użytkownik ma możliwość wyboru programu z pośród wbudowanych w pralkę 5
+typów prania.
+Dodatkowo użytkownik ma możliwość ustawienia własnego typu prania, w którym
+może ustawić parametry takie jak:
+ temperatura wody,
+ czas prania wstępnego,
+ czas prania zasadniczego,
+ dodatkowe płukanie,
+ prędkość obrotową wirowania.
+
+Jednymi z akcji jakie wykonuje pralka są:
+ pompowanie wody,
+ podgrzewanie wody,
+ wyważanie zawartości bębna,
+ sprawdzanie drożności filtra.
+
+Należy pamiętać o czujnikach występujących w urządzeniu:
+ ciśnienia wody,
+ temperatury wody,
+ poziomu wody,
+ zabezpieczający przed zalaniem,
+ wagi zawartości bębna,
+ drożności filtra wody (przepływomierz).
+
+Sterowanie przez użytkownika pralką powinno przebiegać w prosty i przejrzysty
+sposób umożliwiając personalizację prania.
+Aplikacja może działać w sposób wielowątkowy. Należy wziąć pod uwagę zasady DRY, KISS,
+YAGNI oraz pamiętać o zachowaniu zasad „czystego kodu”.

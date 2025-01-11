@@ -1,0 +1,29 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
+alog -O2 -sve -msg 5 -sv2k17 -work lab_10_11 $dsn/src/PrzerzutnikD.v $dsn/src/PrzerzutnikJK.v
+# Unit top modules: PrzerzutnikD zad_5.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+acom -O3 -e 100 -work lab_10_11 -2002  $dsn/src/Zad_01/Zad_01.bde
+# Compile Entity "Zad_01"
+# Compile Architecture "Zad_01" of Entity "Zad_01"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+alog -O2 -sve -msg 5 -sv2k17 -work lab_10_11 $dsn/src/PrzerzutnikD.v $dsn/src/PrzerzutnikJK.v
+# Unit top modules: PrzerzutnikD PrzerzutnikJK.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+acom -O3 -e 100 -work lab_10_11 -2002  $dsn/src/Zad_01/Zad_01.bde
+# Compile Entity "Zad_01"
+# Compile Architecture "Zad_01" of Entity "Zad_01"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
+# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.

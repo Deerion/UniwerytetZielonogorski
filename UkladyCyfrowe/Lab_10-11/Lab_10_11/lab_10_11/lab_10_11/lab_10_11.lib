@@ -1,0 +1,61 @@
+timestamp=1736616294435
+
+[~A]
+C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/src/PrzerzutnikD.v=0*1373*1972
+C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/src/PrzerzutnikD.v_PrzerzutnikJK.v=0*7721*8432
+LastVerilogToplevel=PrzerzutnikJK
+ModifyID=29
+Version=74
+
+[~MFT]
+0=8|0lab_10_11.mgf|10003|3795
+1=1|1lab_10_11.mgf|11072|3040
+2=0|2lab_10_11.mgf|0|0
+3=2|3lab_10_11.mgf|5570|2718
+
+[$root]
+A/$root=22|||1*8411
+BinW64/$root=3*3733
+SLP=3*3848
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c9216183e77bdbc06e5de4345b7cbe82bf7a1
+
+[PrzerzutnikD]
+A/PrzerzutnikD=22|../src/PrzerzutnikD.v|29|1*8817
+BinW64/PrzerzutnikD=3*3916
+NSymbols/przerzutnikd=NSymbols/PrzerzutnikD 40|0|2*0
+R=../src/PrzerzutnikD.v|29
+SLP=3*4294
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|ba17810efeff48e54b627ccdb410a0520b71066d933b5a4e6defe6d86d77084080a8b616307ba4fd7afda75b77d985a9
+
+[PrzerzutnikJK]
+A/PrzerzutnikJK=22|../src/PrzerzutnikJK.v|27|1*9955
+BinW64/PrzerzutnikJK=3*4524
+R=../src/PrzerzutnikJK.v|27
+SLP=3*5143
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|cc721e36ef85078d51b53f1b549d1bbd79d06f52c69b763c39dec5244943119b2c30698e88db62ccbdcbf8cbc7192599
+
+[zad_01]
+A/zad_01=A/Zad_01 24|../src/Zad_01/Zad_01.bde|10000|1*11072
+BinW64/zad_01=3*5570
+I=0*3245
+I/zad_01=I/Zad_01 0*10003
+M=11|2|vf5|1734347623777|../compile/Zad_01.vhd|0*0*0x3c0abfe79ddb5a6160e5eebed57963dec96dbced|0*425*0x23b75c12e3e89f2ef000564498faa8c2
+M/zad_01=M/Zad_01 21|2|vf5|1736616294394|../compile/Zad_01.vhd|0*9136*0xfe1b88a6efff7fc8e589565c07152d7ac8c71af3|0*9912*0x20116f55b147878295aeff36dce7fc50
+R=../compile/Zad_01.vhd|27
+R/zad_01=../compile/Zad_01.vhd|40
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|07d1dcda1b084f4a4eb9585d98ed0bc2f856ea12a3171a20f9a4d68b02118519
+Version/zad_01=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|07d1dcda1b084f4a4eb9585d98ed0bc29288d719d695efa87f9d7f3ed93b5629
+
+[zad_5]
+A/zad_5=22|../src/PrzerzutnikJK.v|27|1*5183
+BinW64/zad_5=3*2150
+R=../src/PrzerzutnikJK.v|27
+SLP=3*2761
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|72e6f58bdb315b5680816296fba13051346c0e32e49d3f75e8863b417f34e6c4
+
+[~U]
+$root=12|0*7093|
+PrzerzutnikD=12|0*7275||0x13
+PrzerzutnikJK=12|0*7494||0x10
+zad_01=Zad_01 11|0*3045|
+zad_5=12|0*4269||0x10

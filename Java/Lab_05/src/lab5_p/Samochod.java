@@ -1,6 +1,7 @@
 package lab5_p;
-
 import java.time.LocalDate;
+import java.time.Period;
+
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 
@@ -11,10 +12,13 @@ public class Samochod {
     public String typNadwozie;
     public String typSilnika;
     public int rokProdukcji;
-    public int cena;
-    public String dataPierwszejRejestracji;
+    public double cena;
+    private LocalDate dataPierwszejRejestracji;
+    
+    public Samochod(String marka, String model, double pojemnoscSilnika, String typNadwozie,
+                    String typSilnika, int rokProdukcji, double cena, String dataPierwszejRejestracji) {
 
-    public Samochod(String marka, String model, double pojemnoscSilnika, String typNadwozie, String typSilnika, int rokProdukcji, int cena, String dataPierwszejRejestracji) {
+        LocalDate dataRejestracji = LocalDate.parse(dataPierwszejRejestracji);
         this.marka = marka;
         this.model = model;
         this.pojemnoscSilnika = pojemnoscSilnika;
@@ -22,7 +26,7 @@ public class Samochod {
         this.typSilnika = typSilnika;
         this.rokProdukcji = rokProdukcji;
         this.cena = cena;
-        this.dataPierwszejRejestracji = dataPierwszejRejestracji;
+        this.dataPierwszejRejestracji = dataRejestracji;
     }
 
     public String getMarka() {
@@ -65,19 +69,19 @@ public class Samochod {
         this.typSilnika = typSilnika;
     }
 
-    public int getCena() {
+    public double getCena() {
         return cena;
     }
 
-    public void setCena(int cena) {
+    public void setCena(double cena) {
         this.cena = cena;
     }
 
-    public String getDataPierwszejRejestracji() {
+    public LocalDate getDataPierwszejRejestracji() {
         return dataPierwszejRejestracji;
     }
 
-    public void setDataPierwszejRejestracji(String dataPierwszejRejestracji) {
+    public void setDataPierwszejRejestracji(LocalDate dataPierwszejRejestracji) {
         this.dataPierwszejRejestracji = dataPierwszejRejestracji;
     }
 
@@ -93,16 +97,17 @@ public class Samochod {
         return marka + " " + model + " " + pojemnoscSilnika + " " + typNadwozie + " " + typSilnika + " " + rokProdukcji + " " + cena + " " + dataPierwszejRejestracji;
     }
 
-    public static void czyMaGwarancje(Samochod samochod) {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-        LocalDate dataPierwszejRejestracji = LocalDate.parse(samochod.getDataPierwszejRejestracji(), formatter);
-        LocalDate dataKoncaGwarancji = dataPierwszejRejestracji.plusYears(2);
-        LocalDate dzisiaj = LocalDate.now();
-        if (dzisiaj.isBefore(dataKoncaGwarancji)) {
-            System.out.println(samochod.wyswietl() + " Samochód ma gwarancję");
-        } else {
-            System.out.println(samochod.wyswietl() + " Samochód nie ma gwarancji");
-        }
+    public String czyMaGwarancje() {
+        if (dataPierwszejRejestracji != null) {
+            LocalDate dzis = LocalDate.now();
+            Period roznica = Period.between(dataPierwszejRejestracji, dzis);
 
+            if (roznica.getYears() < 2) {
+                return "Samochód posiada jeszcze gwarancję.";
+            } else {
+                return "Gwarancja na samochód już wygasła.";
+            }
+        }
+        return "Data rejestracji nie została ustawiona.";
     }
 }

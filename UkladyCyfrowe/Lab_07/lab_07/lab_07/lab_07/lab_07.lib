@@ -1,29 +1,42 @@
-timestamp=1732227220704
+timestamp=1734123626685
 
 [~A]
-C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_07/lab_07/lab_07/src/zad_01/wyswietlacz.v=0*55249*56229
+C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_07/lab_07/lab_07/src/zad_01/wyswietlacz.v=0*62161*63141
 LastVerilogToplevel=wyswietlacz
-ModifyID=30
+ModifyID=36
 Version=74
 
 [~MFT]
-0=6|0lab_07.mgf|56229|43069
-1=4|1lab_07.mgf|50923|50549
-3=8|3lab_07.mgf|83355|81779
+0=6|0lab_07.mgf|63141|46631
+1=4|1lab_07.mgf|57494|52280
+3=8|3lab_07.mgf|87653|85550
 
 [$root]
-A/$root=22|||1*50549
-BinW64/$root=3*81779
-SLP=3*81894
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c9216ad2ff8d4a76d2b7e6a99a51a0e413def
+A/$root=22|||1*57120
+BinW64/$root=3*86077
+SLP=3*86192
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c9216eb2b8cc245c4413d19c095614246cdd4
 
 [wyswietlacz]
-A/wyswietlacz=22|../src/zad_01/wyswietlacz.v|27|1*50923
-BinW64/wyswietlacz=3*81962
+A/wyswietlacz=22|../src/zad_01/wyswietlacz.v|27|1*57494
+BinW64/wyswietlacz=3*86260
 R=../src/zad_01/wyswietlacz.v|27
-SLP=3*83355
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|5b5eb7a0bbd989c064b3befd87b9d7858eb868e1702e6ad2839bf6fae6798bd06d7bc77c4de0495a8441a5752fec3152
+SLP=3*87653
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|5b5eb7a0bbd989c064b3befd87b9d7858eb868e1702e6ad2839bf6fae6798bd07dc3de2b95adf5385560dd9ff45530d8
+
+[zad_02]
+A/zad_02=A/Zad_02 24|../src/Zad_02/Zad_02.bde|10000|1*54700
+BinW64/zad_02=3*85550
+I=0*57618
+I/zad_02=I/Zad_02 0*61440
+M=11|2|vf5|1734122276450|../compile/Zad_02.vhd|0*57105*0x9fc86365edf9b4d5c6ebd70c0466c68b97aecc11|0*57537*0x23b75c12e3e89f2ef000564498faa8c2
+M/zad_02=M/Zad_02 21|2|vf5|1734123054624|../compile/Zad_02.vhd|0*59839*0xbf916c0dfc63a7792314eed67b54002e2214cb58|0*61349*0x20116f55b147878295aeff36dce7fc50
+R=../compile/Zad_02.vhd|27
+R/zad_02=../compile/Zad_02.vhd|40
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|5f2d05666e080fd5a17dc343f51b585d5981a8c6f334bf561a4705590af47fc1
+Version/zad_02=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|5f2d05666e080fd5a17dc343f51b585d342bf4cfcd91371bd0598a67468f4790
 
 [~U]
-$root=12|0*54843|
-wyswietlacz=12|0*55009||0x10
+$root=12|0*61755|
+wyswietlacz=12|0*61921||0x10
+zad_02=Zad_02 11|0*56898|

@@ -1,4 +1,4 @@
-Active-HDL 15.0.261.9132 2024-11-13 12:18:53
+Active-HDL 15.0.261.9132 2024-12-13 21:11:31
 
 Elaboration top modules:
 Verilog Module                and_test
@@ -15,9 +15,3 @@ Library                 | Comment
 -------------------------------------------------------------------------------------------
 lab_06                  | None
 -------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim -O2 +access +r +m+and_test and_test
-
-
-The performance of simulation is reduced. Version Student Edition

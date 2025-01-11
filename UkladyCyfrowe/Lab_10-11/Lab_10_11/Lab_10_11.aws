@@ -1,0 +1,11 @@
+[Version]
+Version=15.0
+[Designs]
+lab_10_11=.\lab_10_11\lab_10_11.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+[Expand]
+lab_10_11=1

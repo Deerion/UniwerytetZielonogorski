@@ -1,0 +1,71 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=lab_08
+[Library]
+lab_08=.\lab_08\lab_08.lib
+[$LibMap$]
+lab_08=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+WireDelay=2
+[IMPLEMENTATION]
+UCF=
+[Files]
+zad_1/zad_1.bde=-1
+zad_2/zad_2.bde=-1
+zad_3/zad_3.bde=-1
+zad_4/zad_4.v=-1
+zad_5/zad_5.v=-1
+zad_6/zad_06.bde=-1
+zad_7/zad_7.bde=-1
+[Files.Data]
+.\src\zad_1\zad_1.bde=Block Diagram
+.\src\zad_2\zad_2.bde=Block Diagram
+.\src\zad_3\zad_3.bde=Block Diagram
+.\src\zad_4\zad_4.v=Verilog Source Code
+.\src\zad_5\zad_5.v=Verilog Source Code
+.\src\zad_6\zad_06.bde=Block Diagram
+.\src\zad_7\zad_7.bde=Block Diagram
+[file_out:/zad_1.bde]
+/..\compile\zad_1.vhd=-1
+[file_out:zad_1/zad_1.bde]
+zad_1/..\..\compile\zad_1.vhd=-1
+[file_out:zad_2/zad_2.bde]
+zad_2/..\..\compile\zad_2.vhd=-1
+[HierarchyViewer]
+HierarchyInformation=zad_7|zad_7|0
+ShowHide=ShowTopLevel
+Selected=
+[file_out:zad_3/zad_3.bde]
+zad_3/..\..\compile\zad_3.vhd=-1
+[LocalVerilogSets]
+MonitoringOfEventsUDP=0
+InitialRegsValue=X
+HasInitialRegsValue=0
+EnableSLP=0
+SlpReuseModelEnable=0
+RandomNumberGeneratorSeedType=Default
+RandomNumberGeneratorValueSeed=1
+[file_out:zad_6/zad_06.bde]
+zad_6/..\..\compile\zad_06.vhd=-1
+[Groups]
+zad_1=1
+zad_2=1
+zad_3=1
+zad_4=1
+zad_5=1
+zad_6=1
+zad_7=1
+[file_out:zad_7/zad_7.bde]
+zad_7/..\..\compile\zad_7.vhd=-1
