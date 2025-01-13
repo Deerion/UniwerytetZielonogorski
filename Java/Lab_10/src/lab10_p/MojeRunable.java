@@ -1,5 +1,7 @@
 package lab10_p;
 
+import org.w3c.dom.ls.LSOutput;
+
 // Poprawione: Implementacja Runnable i synchronizacja dostępu do 'suma'
 public class MojeRunable implements Runnable {
     private int suma;
@@ -16,7 +18,6 @@ public class MojeRunable implements Runnable {
             }
         }
     }
-
     public synchronized int getSuma() {
         return suma;
     }
