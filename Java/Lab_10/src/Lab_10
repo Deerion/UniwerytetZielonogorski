@@ -1,0 +1,10 @@
+1. Napisz aplikację, która utworzy 15 wątków wyświetlających informacje: id wątku,
+tekst „wątek:...1-15” oraz dzisiejszą datę. Po wykonaniu zadania działanie każdego z
+wątków zostaje uśpione na czas 300 milisekund.
+
+2. Napisz aplikację generującą logi na dowolnie zadany przez siebie temat (np.
+generator logu oceny filmu będzie wyglądał następująco: id_filmu, id_uzytkownika,
+ocena, data_glosowania). Zapis informacji do pliku należy zrealizować wielowątkowo
+z użyciem dwóch metod: poprzez dziedziczenie klasy Thread, oraz poprzez
+implementację interfejsu Runnable. Następie wielowątkowo odczytać z pliku
+informacje w nim zawarte i wyświetlić po 10 linii dla każdego wątku.

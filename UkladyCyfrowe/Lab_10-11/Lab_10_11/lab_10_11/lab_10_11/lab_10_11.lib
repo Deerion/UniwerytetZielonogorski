@@ -1,61 +1,116 @@
-timestamp=1736767529120
+timestamp=1737365194580
 
 [~A]
-C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/src/PrzerzutnikD.v=0*1373*1972
-C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/src/PrzerzutnikD.v_PrzerzutnikJK.v=0*2644*3355
+C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/src/PrzerzutnikD.v=0*6512*7111
+C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/src/PrzerzutnikD.v_PrzerzutnikJK.v=0*29831*30542
 LastVerilogToplevel=PrzerzutnikJK
-ModifyID=41
+ModifyID=109
 Version=74
 
 [~MFT]
-0=8|0lab_10_11.mgf|12468|7054
-1=1|1lab_10_11.mgf|16597|0
-2=0|2lab_10_11.mgf|0|0
-3=2|3lab_10_11.mgf|3420|568
+0=40|0lab_10_11.mgf|36631|21015
+1=5|1lab_10_11.mgf|50088|7951
+2=0|2lab_10_11.mgf|1866|0
+3=8|3lab_10_11.mgf|17827|13074
 
 [$root]
-A/$root=22|||1*0
-BinW64/$root=3*0
-SLP=3*115
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c9216183e77bdbc06e5de4345b7cbe82bf7a1
+A/$root=22|||1*38343
+BinW64/$root=3*14089
+SLP=3*14204
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c9216d6df3cd2d49ca89e8d82944617a0b582
 
 [PrzerzutnikD]
-A/PrzerzutnikD=22|../src/PrzerzutnikD.v|29|1*406
-BinW64/PrzerzutnikD=3*183
+A/PrzerzutnikD=22|../src/PrzerzutnikD.v|29|1*38733
+BinW64/PrzerzutnikD=3*14272
 NSymbols/przerzutnikd=NSymbols/PrzerzutnikD 40|0|2*0
 R=../src/PrzerzutnikD.v|29
-SLP=3*561
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|ba17810efeff48e54b627ccdb410a0520b71066d933b5a4e6defe6d86d77084080a8b616307ba4fd7afda75b77d985a9
+SLP=3*14650
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|ba17810efeff48e54b627ccdb410a0520b71066d933b5a4e6defe6d86d7708407941062771f539d9141b6e090f7b8713
 
 [PrzerzutnikJK]
-A/PrzerzutnikJK=22|../src/PrzerzutnikJK.v|27|1*1544
-BinW64/PrzerzutnikJK=3*791
+A/PrzerzutnikJK=22|../src/PrzerzutnikJK.v|27|1*39871
+BinW64/PrzerzutnikJK=3*14880
+NSymbols/przerzutnikjk=NSymbols/PrzerzutnikJK 40|0|2*1866
 R=../src/PrzerzutnikJK.v|27
-SLP=3*1410
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|cc721e36ef85078d51b53f1b549d1bbd79d06f52c69b763c39dec5244943119b2c30698e88db62ccbdcbf8cbc7192599
+SLP=3*15499
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|cc721e36ef85078d51b53f1b549d1bbd79d06f52c69b763c39dec5244943119b2da7ab7556a0cb424a9255640721f9f3
 
 [zad_01]
-A/zad_01=A/Zad_01 24|../src/Zad_01/Zad_01.bde|10000|1*16597
-BinW64/zad_01=3*3420
-I=0*4887
-I/zad_01=I/Zad_01 0*12468
+A/zad_01=A/Zad_01 24|../src/Zad_01/Zad_01.bde|10000|1*40988
+BinW64/zad_01=3*15926
+I=0*10026
+I/zad_01=I/Zad_01 0*32224
 M=11|2|vf5|1734347623777|../compile/Zad_01.vhd|0*0*0x3c0abfe79ddb5a6160e5eebed57963dec96dbced|0*425*0x23b75c12e3e89f2ef000564498faa8c2
-M/zad_01=M/Zad_01 21|2|vf5|1736767529097|../compile/Zad_01.vhd|0*11593*0x54323658ab3d698472f8af45d7cf85ff1ab457e2|0*12377*0x20116f55b147878295aeff36dce7fc50
+M/zad_01=M/Zad_01 21|2|vf5|1737365194444|../compile/Zad_01.vhd|0*31246*0x9eba66d5b3c53d245b02e985104490732f13a59f|0*32133*0x20116f55b147878295aeff36dce7fc50
 R=../compile/Zad_01.vhd|27
 R/zad_01=../compile/Zad_01.vhd|40
 Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|07d1dcda1b084f4a4eb9585d98ed0bc2f856ea12a3171a20f9a4d68b02118519
-Version/zad_01=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|07d1dcda1b084f4a4eb9585d98ed0bc20a9770e5efa8c377d38cb0d8b209110d
+Version/zad_01=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|07d1dcda1b084f4a4eb9585d98ed0bc23ed7b933efac2e12e3ef000fe85df94e
+
+[zad_02]
+A/zad_02=A/Zad_02 24|../src/Zad_02/Zad_02.bde|10000|1*43224
+BinW64/zad_02=3*16572
+I=0*10850
+I/zad_02=I/Zad_02 0*33772
+M=11|2|vf5|1737131045310|../compile/Zad_02.vhd|0*506*0xd4d7754e788d0ba3a6b88bd57e106875872dbb23|0*931*0x23b75c12e3e89f2ef000564498faa8c2
+M/zad_02=M/Zad_02 21|2|vf5|1737365194483|../compile/Zad_02.vhd|0*32539*0x7c8fb0551ca75939d933ecaa6b9b56350f58fb79|0*33681*0x20116f55b147878295aeff36dce7fc50
+R=../compile/Zad_02.vhd|27
+R/zad_02=../compile/Zad_02.vhd|40
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|5f2d05666e080fd5a17dc343f51b585df78e691b8dd0935c834742bbda0bf70e
+Version/zad_02=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|5f2d05666e080fd5a17dc343f51b585d8db8f3e68d4e1ba577e7480b719d1bbc
+
+[zad_03]
+A/zad_03=A/Zad_03 24|../src/Zad_03/Zad_03.bde|10000|1*46148
+BinW64/zad_03=3*17354
+I=0*11680
+I/zad_03=I/Zad_03 0*34758
+M=11|2|vf5|1737135884471|../compile/Zad_03.vhd|0*1012*0x3eff47f535d3f8a4c62f2121d2ada8e2369c46ac|0*1443*0x23b75c12e3e89f2ef000564498faa8c2
+M/zad_03=M/Zad_03 21|2|vf5|1737365194511|../compile/Zad_03.vhd|0*34087*0xe00222a9ed3a18cf841f654021bd096b9592e8fd|0*34667*0x20116f55b147878295aeff36dce7fc50
+R=../compile/Zad_03.vhd|27
+R/zad_03=../compile/Zad_03.vhd|40
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|9c1fb05f69c4520c996aafd15ceb874c13e7e0d6d02df5c3446cac542da197ec
+Version/zad_03=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|9c1fb05f69c4520c996aafd15ceb874c3a7ac2ea7154907345b9c52ccd695a85
+
+[zad_04]
+A/zad_04=A/Zad_04 24|../src/Zad_04/Zad_04.bde|10000|1*47891
+BinW64/zad_04=3*17827
+I=0*12503
+I/zad_04=I/Zad_04 0*36082
+M=11|2|vf5|1737309477909|../compile/Zad_04.vhd|0*1524*0x8aa8a9142edf5f80ea6e6a898a7de96a833c41f6|0*1932*0x23b75c12e3e89f2ef000564498faa8c2
+M/zad_04=M/Zad_04 21|2|vf5|1737365194538|../compile/Zad_04.vhd|0*35073*0xbc0e3c7f9e366180df38a44285690128d531d18f|0*35991*0x20116f55b147878295aeff36dce7fc50
+R=../compile/Zad_04.vhd|27
+R/zad_04=../compile/Zad_04.vhd|39
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|9aa8961bbab8fd94a77538073370e442191bcfb6ced85484150643ad549332a8
+Version/zad_04=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|9aa8961bbab8fd94a77538073370e44212423faf82ed4029830b67fc27f4ae96
+
+[zad_06]
+A/zad_06=A/Zad_06 24|../src/Zad_06/Zad_06.bde|10000|1*50088
+I=0*13323
+I/zad_06=I/Zad_06 0*36631
+M=11|2|vf5|1737364968288|../compile/Zad_06.vhd|0*2013*0xe1c5cc40efae30332baee529ef6046ca668b9f1d|0*2306*0x23b75c12e3e89f2ef000564498faa8c2
+M/zad_06=M/Zad_06 21|2|vf5|1737365194576|../compile/Zad_06.vhd|0*36397*0xd362c9345cda130b38e81de1606b3d18972aa555|0*36540*0x20116f55b147878295aeff36dce7fc50
+R=../compile/Zad_06.vhd|24
+R/zad_06=../compile/Zad_06.vhd|35
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|850713630e68c4f02f59ef6b2b0971c2b199f98165c93f201a0835611ac2df41
+Version/zad_06=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|850713630e68c4f02f59ef6b2b0971c2a8876ee58bc977e9aedb9d9171a244a4
 
 [zad_5]
-A/zad_5=22|../src/PrzerzutnikJK.v|27|1*4804
-BinW64/zad_5=3*2405
+A/zad_5=22|../src/PrzerzutnikJK.v|27|1*12430
+BinW64/zad_5=3*4358
 R=../src/PrzerzutnikJK.v|27
-SLP=3*3016
+SLP=3*4969
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|72e6f58bdb315b5680816296fba13051346c0e32e49d3f75e8863b417f34e6c4
 
 [~U]
-$root=12|0*4059|
-PrzerzutnikD=12|0*4241||0x13
-PrzerzutnikJK=12|0*4460||0x10
-zad_01=Zad_01 11|0*4687|
-zad_5=12|0*5510||0x10
+$root=12|0*29203|
+PrzerzutnikD=12|0*29385||0x13
+PrzerzutnikJK=12|0*29604||0x13
+zad_01=Zad_01 11|0*9826|
+zad_02=Zad_02 11|0*10649|
+zad_03=Zad_03 11|0*11473|
+zad_04=Zad_04 11|0*12303|
+zad_06=Zad_06 11|0*13126|
+zad_5=12|0*13726||0x10
+
+
+

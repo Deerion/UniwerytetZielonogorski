@@ -8,7 +8,7 @@
 -------------------------------------------------------------------------------
 --
 -- File        : C:\Users\Hubert Jarosz\Documents\GitHub\UniwersytetZielonogorski\UkladyCyfrowe\Lab_10-11\Lab_10_11\lab_10_11\compile\Zad_01.vhd
--- Generated   : Mon Jan 13 12:25:28 2025
+-- Generated   : Sun Jan 19 18:11:52 2025
 -- From        : C:\Users\Hubert Jarosz\Documents\GitHub\UniwersytetZielonogorski\UkladyCyfrowe\Lab_10-11\Lab_10_11\lab_10_11\src\Zad_01\Zad_01.bde
 -- By          : Bde2Vhdl ver. 2.6
 --
@@ -52,11 +52,13 @@ end component;
 
 ---- Signal declarations used on the diagram ----
 
-signal NET3146 : STD_LOGIC;
-signal NET3154 : STD_LOGIC;
-signal NET3277 : STD_LOGIC;
-signal NET3406 : STD_LOGIC;
-signal NET3429 : STD_LOGIC;
+signal NET3634 : STD_LOGIC;
+signal NET3655 : STD_LOGIC;
+signal NET4176 : STD_LOGIC;
+signal NET4184 : STD_LOGIC;
+signal NET4257 : STD_LOGIC;
+signal NET4265 : STD_LOGIC;
+signal NET4363 : STD_LOGIC;
 
 begin
 
@@ -64,35 +66,39 @@ begin
 
 D0 : PrzerzutnikD
   port map(
-       Q => NET3429,
+       Q => RC,
        Clk => Clk,
        Reset => Reset,
-       D => NET3154
+       D => NET3655
   );
 
 D1 : PrzerzutnikD
   port map(
-       Q => RC,
+       Q => NET4363,
        Clk => Clk,
        Reset => Reset,
-       D => NET3429
+       D => RC
   );
 
-NET3154 <= not(RC) and NET3146;
+NET3634 <= m or RC;
 
-NET3406 <= not(RC) and not(NET3429) and m;
+GP <= RC and not(NET4363);
 
-NET3146 <= m or NET3429;
+NET3655 <= not(NET4363) and NET3634;
 
-YC <= RC xor NET3429;
+NET4176 <= not(RC) and not(NET4363) and m;
 
-GC <= not(RC) and not(NET3429) and m;
+NET4184 <= NET4363 and RC;
 
-NET3277 <= NET3429 xor RC;
+YC <= NET4184 or NET4176;
 
-RP <= NET3406 or NET3277;
+NET4257 <= not(RC) and not(m);
 
-GP <= NET3429 and RC;
+NET4265 <= not(RC) and NET4363;
+
+GC <= NET4265 or NET4257;
+
+RP <= not(RC) or NET4363;
 
 
 end Zad_01;

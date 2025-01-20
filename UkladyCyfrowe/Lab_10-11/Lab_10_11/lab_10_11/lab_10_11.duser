@@ -2,7 +2,7 @@
 <design-settings>
 	<plugins>
 		<Aldec.Stimuli.1>
-			<hierarchy activeStimuliSetName="StimuliSet1">
+			<hierarchy activeStimuliSetName="StimuliSet4">
 				<stimuliSet name="StimuliSet1">
 					<stimulus name="Clk" strength="default" enabled="true" type="clock">
 						<stimulus_data>
@@ -38,13 +38,188 @@
 							<repeat_time value="0fs" enabled="false"/>
 							<cancel_time value="0fs" enabled="false"/>
 							<entries>
-								<entry value="0" time="10fs"/>
-								<entry value="1" time="20ns"/>
-								<entry value="0" time="30ns"/>
+								<entry value="0" time="0fs"/>
+								<entry value="1" time="15ns"/>
+								<entry value="0" time="20ns"/>
+								<entry value="1" time="50ns"/>
+								<entry value="0" time="55ns"/>
 							</entries>
 						</stimulus_data>
 						<signals>
 							<signal path="/Zad_01/m"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet2">
+					<stimulus name="Reset" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="1" time="0fs"/>
+								<entry value="0" time="10ns"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/Zad_02/Reset"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Clk" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="5ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/Zad_02/Clk"/>
+						</signals>
+					</stimulus>
+					<stimulus name="m" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="0" time="0fs"/>
+								<entry value="1" time="20ns"/>
+								<entry value="0" time="25ns"/>
+								<entry value="1" time="50ns"/>
+								<entry value="0" time="55ns"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/Zad_02/m"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet3">
+					<stimulus name="Clock" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="5ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/Zad_03/Clock"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Jeden" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="1" time="0fs"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/Zad_03/Jeden"/>
+						</signals>
+					</stimulus>
+					<stimulus name="X0" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="0" time="0fs"/>
+								<entry value="1" time="75ns"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/Zad_03/X0"/>
+						</signals>
+					</stimulus>
+					<stimulus name="X1" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="0" time="0fs"/>
+								<entry value="1" time="25ns"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/Zad_03/X1"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Reset" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="1" time="0fs"/>
+								<entry value="0" time="10ns"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/Zad_03/Reset"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet4">
+					<stimulus name="Reset" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="1" time="0fs"/>
+								<entry value="0" time="10ns"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/Zad_04/Reset"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Clock" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="5ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/Zad_04/Clock"/>
+						</signals>
+					</stimulus>
+					<stimulus name="X0" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="0" time="0fs"/>
+								<entry value="1" time="75ns"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/Zad_04/X0"/>
+						</signals>
+					</stimulus>
+					<stimulus name="X1" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="0" time="0fs"/>
+								<entry value="1" time="25ns"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/Zad_04/X1"/>
 						</signals>
 					</stimulus>
 				</stimuliSet>

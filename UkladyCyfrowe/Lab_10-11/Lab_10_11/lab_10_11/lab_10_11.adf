@@ -21,18 +21,41 @@ ON_SERVERFARM_SIM=0
 [IMPLEMENTATION]
 UCF=
 [HierarchyViewer]
-HierarchyInformation=zad_01|zad_01|0
+HierarchyInformation=zad_04|zad_04|0
 ShowHide=ShowTopLevel
 Selected=
 [Files]
 /PrzerzutnikD.v=-1
 /PrzerzutnikJK.v=-1
 Zad_01/Zad_01.bde=-1
+Zad_02/Zad_02.bde=-1
+Zad_03/Zad_03.bde=-1
+Zad_04/Zad_04.bde=-1
+Zad_05/Zad_05.bde=-1
+Zad_06/Zad_06.bde=-1
 [Files.Data]
 .\src\PrzerzutnikD.v=Verilog Source Code
 .\src\PrzerzutnikJK.v=Verilog Source Code
 .\src\Zad_01\Zad_01.bde=Block Diagram
-[Groups]
-Zad_01=1
+.\src\Zad_02\Zad_02.bde=Block Diagram
+.\src\Zad_03\Zad_03.bde=Block Diagram
+.\src\Zad_04\Zad_04.bde=Block Diagram
+.\src\Zad_05\Zad_05.bde=Block Diagram
+.\src\Zad_06\Zad_06.bde=Block Diagram
 [file_out:Zad_01/Zad_01.bde]
 Zad_01/..\..\compile\Zad_01.vhd=-1
+[file_out:Zad_02/Zad_02.bde]
+Zad_02/..\..\compile\Zad_02.vhd=-1
+[file_out:Zad_03/Zad_03.bde]
+Zad_03/..\..\compile\Zad_03.vhd=-1
+[file_out:Zad_04/Zad_04.bde]
+Zad_04/..\..\compile\Zad_04.vhd=-1
+[Groups]
+Zad_01=1
+Zad_02=1
+Zad_03=1
+Zad_04=1
+Zad_05=1
+Zad_06=1
+[file_out:Zad_06/Zad_06.bde]
+Zad_06/..\..\compile\Zad_06.vhd=-1
