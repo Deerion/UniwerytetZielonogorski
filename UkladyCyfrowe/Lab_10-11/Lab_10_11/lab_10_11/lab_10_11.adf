@@ -21,7 +21,7 @@ ON_SERVERFARM_SIM=0
 [IMPLEMENTATION]
 UCF=
 [HierarchyViewer]
-HierarchyInformation=zad_04|zad_04|0
+HierarchyInformation=zad_05|zad_05|0
 ShowHide=ShowTopLevel
 Selected=
 [Files]
@@ -59,3 +59,5 @@ Zad_05=1
 Zad_06=1
 [file_out:Zad_06/Zad_06.bde]
 Zad_06/..\..\compile\Zad_06.vhd=-1
+[file_out:Zad_05/Zad_05.bde]
+Zad_05/..\..\compile\Zad_05.vhd=-1

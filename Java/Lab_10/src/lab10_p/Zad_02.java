@@ -1,23 +1,28 @@
 package lab10_p;
 
-import java.io.FileWriter;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Random;
+public class Zad_02 {
+    public static void main(String[] args) {
+        MojRunnable2 generatorRunnable1 = new MojRunnable2(1, 50);
+        Thread generatorThread1 = new Thread(generatorRunnable1);
 
-public class Zad_02 implements Runnable {
-    private int startId;
-    private int numberOfLogs;
+        MojRunnable2 generatorRunnable2 = new MojRunnable2(51, 50);
+        Thread generatorThread2 = new Thread(generatorRunnable2);
 
-    Zad_02(int startId, int numberOfLogs) {
-        this.startId = startId;
-        this.numberOfLogs = numberOfLogs;
-    }
 
-    public void run() {
-        LogWriter logWriter = new LogWriter(startId, numberOfLogs);
-        logWriter.generateLogs();
+        generatorThread1.start();
+        generatorThread2.start();
+
+
+        try {
+            generatorThread1.join();
+            generatorThread2.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        //5 wątków do odczytu logów
+        for (int i = 1; i <= 5; i++) {
+            new Thread(new LogReader(i)).start();
+        }
     }
 }
-

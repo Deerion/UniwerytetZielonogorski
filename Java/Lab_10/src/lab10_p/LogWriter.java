@@ -10,10 +10,12 @@ public class LogWriter {
     private int startId;
     private int numberOfLogs;
 
+
     LogWriter(int startId, int numberOfLogs) {
         this.startId = startId;
         this.numberOfLogs = numberOfLogs;
     }
+
 
     public void generateLogs() {
         Random random = new Random();
@@ -24,6 +26,7 @@ public class LogWriter {
                 int userId = random.nextInt(1000) + 1; // id użytkownika
                 int rating = random.nextInt(5) + 1; // ocena (1-5)
                 String date = dateFormat.format(new Date()); // bieżąca data
+
 
                 writer.write(movieId + "," + userId + "," + rating + "," + date + "\n");
             }

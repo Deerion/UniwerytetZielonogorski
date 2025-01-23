@@ -12,9 +12,9 @@ public class Samochod {
     public String typNadwozie;
     public String typSilnika;
     public int rokProdukcji;
-    public double cena;
     private LocalDate dataPierwszejRejestracji;
-    
+    public double cena;
+
     public Samochod(String marka, String model, double pojemnoscSilnika, String typNadwozie,
                     String typSilnika, int rokProdukcji, double cena, String dataPierwszejRejestracji) {
 

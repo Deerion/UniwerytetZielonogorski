@@ -15,7 +15,7 @@ public class Zad_01 {
             int wynik = licznik / mianownik;
             System.out.println("Wynik dzielenia: " + wynik);
         } catch (ArithmeticException e) {
-            System.out.println("Nie dziel przez zero");
+            System.out.println("Nie dziel cholero przez zero");
         } finally {
             System.out.println("Program zakończony.");
         }

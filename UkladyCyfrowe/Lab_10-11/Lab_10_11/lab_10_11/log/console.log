@@ -1,34 +1,6 @@
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
 # Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
-# Error: Fatal diagram consistency problem caused by Net ( Name: NET1480 ) with item id of 1480.
-# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
-# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
-# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
-# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
-# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
-# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
-alog -O2 -sve -msg 5 -sv2k17 -work lab_10_11 $dsn/src/PrzerzutnikD.v $dsn/src/PrzerzutnikJK.v
-# Unit top modules: PrzerzutnikD PrzerzutnikJK.
-# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
-# done
-acom -O3 -e 100 -work lab_10_11 -2002  $dsn/src/Zad_01/Zad_01.bde $dsn/src/Zad_02/Zad_02.bde $dsn/src/Zad_03/Zad_03.bde $dsn/src/Zad_04/Zad_04.bde $dsn/src/Zad_05/Zad_05.bde $dsn/src/Zad_06/Zad_06.bde
-# DRC: Checking file "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/src/Zad_05/Zad_05.bde".
-# Error: Fatal diagram consistency problem caused by Net ( Name: NET1480 ) with item id of 1480.
-# DRC: Error: Zad_05.bde - 1 error(s), 0 warning(s)
-# DRC: DRC process completed in 96 millisecond(s).
-# DRC: The results have been written to the log file. Double click on this line to view the log.
-# Compile Entity "Zad_01"
-# Compile Architecture "Zad_01" of Entity "Zad_01"
-# Compile Entity "Zad_02"
-# Compile Architecture "Zad_02" of Entity "Zad_02"
-# Compile Entity "Zad_03"
-# Compile Architecture "Zad_03" of Entity "Zad_03"
-# Compile Entity "Zad_04"
-# Compile Architecture "Zad_04" of Entity "Zad_04"
-# Compile Entity "Zad_06"
-# Compile Architecture "Zad_06" of Entity "Zad_06"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
 # Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
 # Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
 # Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
@@ -45,66 +17,6 @@ acom -O3 -e 100 -work lab_10_11 -2002  $dsn/src/Zad_01/Zad_01.bde $dsn/src/Zad_0
 # Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
 # Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
 # Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
-# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
-acom -O3 -e 100 -work lab_10_11 -2002  $dsn/src/test.bde
-# DRC: Checking file "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/src/test.bde".
-# Error: Fatal diagram consistency problem caused by Net ( Name: NET1534 ) with item id of 1534.
-# DRC: Error: test.bde - 1 error(s), 0 warning(s)
-# DRC: DRC process completed in 100 millisecond(s).
-# DRC: The results have been written to the log file. Double click on this line to view the log.
-alog -O2 -sve -msg 5 -sv2k17 -work lab_10_11 $dsn/src/PrzerzutnikD.v $dsn/src/PrzerzutnikJK.v
-# Unit top modules: PrzerzutnikD PrzerzutnikJK.
-# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
-# done
-acom -O3 -e 100 -work lab_10_11 -2002  $dsn/src/test.bde $dsn/src/Zad_01/Zad_01.bde $dsn/src/Zad_02/Zad_02.bde $dsn/src/Zad_03/Zad_03.bde $dsn/src/Zad_04/Zad_04.bde $dsn/src/Zad_05/Zad_05.bde $dsn/src/Zad_06/Zad_06.bde
-# DRC: Checking file "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/src/test.bde".
-# Error: Fatal diagram consistency problem caused by Net ( Name: NET1534 ) with item id of 1534.
-# DRC: Error: test.bde - 1 error(s), 0 warning(s)
-# DRC: DRC process completed in 92 millisecond(s).
-# DRC: The results have been written to the log file. Double click on this line to view the log.
-# DRC: Checking file "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/src/Zad_05/Zad_05.bde".
-# Error: Fatal diagram consistency problem caused by Net ( Name: NET1480 ) with item id of 1480.
-# DRC: Error: Zad_05.bde - 1 error(s), 0 warning(s)
-# DRC: DRC process completed in 85 millisecond(s).
-# DRC: The results have been written to the log file. Double click on this line to view the log.
-# Compile Entity "Zad_01"
-# Compile Architecture "Zad_01" of Entity "Zad_01"
-# Compile Entity "Zad_02"
-# Compile Architecture "Zad_02" of Entity "Zad_02"
-# Compile Entity "Zad_03"
-# Compile Architecture "Zad_03" of Entity "Zad_03"
-# Compile Entity "Zad_04"
-# Compile Architecture "Zad_04" of Entity "Zad_04"
-# Compile Entity "Zad_06"
-# Compile Architecture "Zad_06" of Entity "Zad_06"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
-# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
-# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
-# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
-# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
-# Error: Fatal diagram consistency problem caused by Net ( Name: NET1534 ) with item id of 1534.
-# Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
-alog -O2 -sve -msg 5 -sv2k17 -work lab_10_11 $dsn/src/PrzerzutnikD.v $dsn/src/PrzerzutnikJK.v
-# Unit top modules: PrzerzutnikD PrzerzutnikJK.
-# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
-# done
-acom -O3 -e 100 -work lab_10_11 -2002  $dsn/src/Zad_01/Zad_01.bde $dsn/src/Zad_02/Zad_02.bde $dsn/src/Zad_03/Zad_03.bde $dsn/src/Zad_04/Zad_04.bde $dsn/src/Zad_05/Zad_05.bde $dsn/src/Zad_06/Zad_06.bde
-# DRC: Checking file "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/src/Zad_05/Zad_05.bde".
-# Error: Fatal diagram consistency problem caused by Net ( Name: NET1480 ) with item id of 1480.
-# DRC: Error: Zad_05.bde - 1 error(s), 0 warning(s)
-# DRC: DRC process completed in 83 millisecond(s).
-# DRC: The results have been written to the log file. Double click on this line to view the log.
-# Compile Entity "Zad_01"
-# Compile Architecture "Zad_01" of Entity "Zad_01"
-# Compile Entity "Zad_02"
-# Compile Architecture "Zad_02" of Entity "Zad_02"
-# Compile Entity "Zad_03"
-# Compile Architecture "Zad_03" of Entity "Zad_03"
-# Compile Entity "Zad_04"
-# Compile Architecture "Zad_04" of Entity "Zad_04"
-# Compile Entity "Zad_06"
-# Compile Architecture "Zad_06" of Entity "Zad_06"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
 # Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
 # Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
 # Warning: Could not write to "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/UkladyCyfrowe/Lab_10-11/Lab_10_11/lab_10_11/bde.set" file.
