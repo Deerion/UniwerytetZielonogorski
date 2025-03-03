@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0cd48cb-3795-458b-8e33-82c383bc29c8" name="Changes" comment="" />
+    <list default="true" id="d0cd48cb-3795-458b-8e33-82c383bc29c8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_01/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_01/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_02/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_02/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_03/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_03/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_04/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_04/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_05/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_05/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_06/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_06/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_07/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_07/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_09/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_09/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_10/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_10/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_11/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_11/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_12A/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_12A/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_12A/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_12A/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_12A/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_12A/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_12A/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_12A/dane.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_12A/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_12A/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_12A/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_12A/src/main/java/com/example/lab_12a/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_12A/src/main/java/com/example/lab_12a/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_12A/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lab_12A/src/main/resources/com/example/lab_12a/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lista_08/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lista_08/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lista_08/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lista_08/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lista_08/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lista_08/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lista_08/Lista_08.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lista_08/src/Lista_08" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lista_08/src/lab8_p/AutoKomis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lista_08/src/lab8_p/Samochod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lista_08/src/lab8_p/Zad_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lista_08/src/lab8_p/Zad_02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lista_08/src/lab8_p/Zad_03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lista_08/src/lab8_p/Zad_04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestr_3/Java/Lista_08/src/lab8_p/Zad_05.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,23 +51,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2tp30d3m4IbBGRXk7fGQXmMErVC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/Semestr_4/JezykiSkryptowe/Lab_01&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -46,6 +88,8 @@
       <workItem from="1741034968164" duration="38000" />
       <workItem from="1741035028452" duration="7000" />
       <workItem from="1741035433603" duration="40000" />
+      <workItem from="1741036856100" duration="9000" />
+      <workItem from="1741038081474" duration="49000" />
     </task>
     <servers />
   </component>

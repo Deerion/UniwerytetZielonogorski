@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4e066d8b-dc33-40a7-a531-80c2d4ed1fb2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Lab_01/Zad_01/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab_02/Zad_01/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab_03/Zad_01/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Semestr_4/ProgramowanieWspolbiezneRozproszone/Labolatorium/src/Lab_01/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Semestr_4/ProgramowanieWspolbiezneRozproszone/Labolatorium/src/Lab_02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Semestr_4/ProgramowanieWspolbiezneRozproszone/Labolatorium/src/Lab_03/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Semestr_4/ProgramowanieWspolbiezneRozproszone/Labolatorium/src/Lab_04/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_01/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_01/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_02/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_02/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_03/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_03/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_04/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_04/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_05/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_05/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_06/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_06/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_07/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_07/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_09/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_09/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_10/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_10/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_11/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_11/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_12A/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_12A/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_12A/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_12A/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_12A/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_12A/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_12A/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_12A/dane.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_12A/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_12A/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_12A/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_12A/src/main/java/com/example/lab_12a/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_12A/src/main/java/com/example/lab_12a/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_12A/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lab_12A/src/main/resources/com/example/lab_12a/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lista_08/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lista_08/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lista_08/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lista_08/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lista_08/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lista_08/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lista_08/Lista_08.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lista_08/src/Lista_08" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lista_08/src/lab8_p/AutoKomis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lista_08/src/lab8_p/Samochod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lista_08/src/lab8_p/Zad_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lista_08/src/lab8_p/Zad_02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lista_08/src/lab8_p/Zad_03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lista_08/src/lab8_p/Zad_04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_3/Java/Lista_08/src/lab8_p/Zad_05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_4/JezykiSkryptowe/Lab_01/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semestr_4/JezykiSkryptowe/Lab_01/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semestr_4/JezykiSkryptowe/Lab_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semestr_4/JezykiSkryptowe/Lab_01/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2tp9QSToxyATYZnK9hPPtn1SI4Z" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Hubert Jarosz/Documents/GitHub/UniwersytetZielonogorski/JezykiSkryptowe/Labolatorium/Lab_01",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hubert Jarosz\Documents\GitHub\UniwersytetZielonogorski\JezykiSkryptowe\Labolatorium\Lab_01" />
+      <recent name="C:\Users\Hubert Jarosz\Documents\GitHub\UniwersytetZielonogorski\JezykiSkryptowe\Labolatorium\Lab_02" />
+      <recent name="C:\Users\Hubert Jarosz\Documents\GitHub\UniwersytetZielonogorski\JezykiSkryptowe\Labolatorium\Lab_03" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hubert Jarosz\Documents\GitHub\UniwersytetZielonogorski\JezykiSkryptowe\Labolatorium\Lab_01\Zad_01" />
+      <recent name="C:\Users\Hubert Jarosz\Documents\GitHub\UniwersytetZielonogorski\JezykiSkryptowe\Labolatorium\Lab_03\Zad_01" />
+      <recent name="C:\Users\Hubert Jarosz\Documents\GitHub\UniwersytetZielonogorski\JezykiSkryptowe\Labolatorium\Lab_02\Zad_01" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.25659.43" />
+        <option value="bundled-python-sdk-181015f7ab06-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.25659.43" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e066d8b-dc33-40a7-a531-80c2d4ed1fb2" name="Changes" comment="" />
+      <created>1741038133155</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741038133155</updated>
+      <workItem from="1741038134177" duration="327000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Labolatorium$main.coverage" NAME="main Coverage Results" MODIFIED="1741038399592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab_01" />
+  </component>
+</project>
