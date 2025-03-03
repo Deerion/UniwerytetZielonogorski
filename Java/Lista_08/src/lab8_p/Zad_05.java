@@ -20,7 +20,6 @@ public class Zad_05 {
 
         List<Samochod> carList = autoKomis.getSamochody();
 
-        // Wyświetlenie wszystkich danych samochodów za pomocą lambdy
         System.out.println("Lista samochodów:");
         carList.forEach(samochod -> {
             System.out.println(samochod.wyswietl());

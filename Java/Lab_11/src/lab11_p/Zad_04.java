@@ -1,4 +1,5 @@
 package lab11_p;
+
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
@@ -16,7 +17,7 @@ public class Zad_04 {
             return;
         }
 
-        System.out.print("Podaj login (nr indeksu): ");
+        System.out.print("Podaj login (Jest to numer twojego indeksu): ");
         String login = scanner.nextLine();
 
         char[] passwordArray = console.readPassword("Podaj haslo: ");
@@ -37,9 +38,8 @@ public class Zad_04 {
                 return new PasswordAuthentication(login + "@stud.uz.zgora.pl", password);
             }
         });
-
         try {
-            System.out.print("Podaj adres odbiorcy: ");
+            System.out.print("Podaj adres odbiorcy: (Pełny [Nr indeksu]@stud.uz.zgora.pl): ");
             String recipient = scanner.nextLine();
             System.out.print("Podaj temat wiadomosci: ");
             String subject = scanner.nextLine();
@@ -53,10 +53,10 @@ public class Zad_04 {
             message.setText(body);
 
             Transport.send(message);
-            System.out.println("Wiadomosc zostala wyslana pomyslnie!");
+            System.out.println("Wiadomość została wysłana do odbiorcy! Mam nadzieje że dijdzie pomyślnie.");
 
         } catch (MessagingException e) {
-            System.err.println("Wystąpil blad podczas wysylania wiadomosci: " + e.getMessage());
+            System.err.println("Wystąpil blad podczas wysylania wiadomosci, odbiorca nie otrzyma wiadomości: " + e.getMessage());
             e.printStackTrace();
         }
     }

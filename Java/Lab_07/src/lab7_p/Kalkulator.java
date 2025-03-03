@@ -8,21 +8,17 @@ public class Kalkulator {
         this.liczby = new int[]{liczba1};
     }
 
-
     public Kalkulator(int liczba1, int liczba2, int liczba3, int liczba4) {
         this.liczby = new int[]{liczba1, liczba2, liczba3, liczba4};
     }
-
 
     public Kalkulator(int liczba1, int liczba2, int liczba3, int liczba4, int liczba5, int liczba6, int liczba7) {
         this.liczby = new int[]{liczba1, liczba2, liczba3, liczba4, liczba5, liczba6, liczba7};
     }
 
-
     public Kalkulator(Kalkulator innyKalkulator) {
         this.liczby = innyKalkulator.liczby.clone();
     }
-
 
     public int obliczSume() {
         int suma = 0;
