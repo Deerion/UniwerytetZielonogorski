@@ -1,80 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0cd48cb-3795-458b-8e33-82c383bc29c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Java/Lab_06/src/Pralka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Lab_06/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Lab_06/src/lab6_p/FrontPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lab_06/src/lab6_p/FrontPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Lab_06/src/lab6_p/Pralka.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Lab_06/src/lab6_p/Programy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lab_06/src/lab6_p/Programy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Lab_06/src/lab6_p/Wykonawcze/Czujniki.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lab_06/src/lab6_p/wykonawcze/Czujniki.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Lab_06/src/lab6_p/Wykonawcze/ElektrozaworyWodne.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lab_06/src/lab6_p/wykonawcze/ElektrozaworyWodne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Lab_06/src/lab6_p/Wykonawcze/PompaWody.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lab_06/src/lab6_p/wykonawcze/PompaWody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Lab_06/src/lab6_p/Wykonawcze/SilnikInwerterowy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lab_06/src/lab6_p/wykonawcze/SilnikInwerterowy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Lab_06/src/lab6_p/Wykonawcze/SterownikPredkosciObrotowej.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lab_06/src/lab6_p/wykonawcze/SterownikPredkosciObrotowej.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Lab_06/src/lab6_p/komponenty/FiltrWody.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lab_06/src/lab6_p/komponenty/FiltrWody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Lab_06/src/lab6_p/komponenty/GrzalkaDoWody.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lab_06/src/lab6_p/komponenty/GrzalkaDoWody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Lab_06/src/lab6_p/komponenty/PojemnikNaDetergenty.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lab_06/src/lab6_p/komponenty/PojemnikNaDetergenty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Lab_06/src/lab6_p/komponenty/PojemnikNaUbrania.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lab_06/src/lab6_p/komponenty/PojemnikNaUbrania.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Lab_07/src/lab7_p/Kalkulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lab_07/src/lab7_p/Kalkulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Lab_10/src/lab10_p/Zad_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lab_10/src/lab10_p/Zad_02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Lab_11/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Lab_11/src/lab11_p/Zad_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lab_11/src/lab11_p/Zad_04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Lista_08/src/lab8_p/Zad_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lista_08/src/lab8_p/Zad_04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Lista_08/src/lab8_p/Zad_05.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lista_08/src/lab8_p/Zad_05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX/.idea/artifacts/TestJavaFX.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX/.idea/artifacts/TestJavaFX_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX/.idea/artifacts/test_jlink.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX/.idea/runConfigurations/Build_App.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX/.idea/runConfigurations/Run_App.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX/out/artifacts/TestJavaFX/TestJavaFX.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX/out/artifacts/test_jlink/test.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX/src/main/java/com/example/testjavafx/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX/src/main/java/com/example/testjavafx/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX/src/main/resources/com/example/testjavafx/hello-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX2/.idea/artifacts/TestJavaFX2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX2/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX2/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX2/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX2/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX2/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX2/out/artifacts/TestJavaFX2/TestJavaFX2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX2/src/main/java/com/example/testjavafx2/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX2/src/main/java/com/example/testjavafx2/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX2/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/TestJavaFX2/src/main/resources/com/example/testjavafx2/hello-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/tmp/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/tmp/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/tmp/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/tmp/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/tmp/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/tmp/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/tmp/src/tmp/AutoTerenowe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/tmp/src/tmp/Samochod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/tmp/src/tmp/Suv.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/tmp/src/tmp/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/tmp/tmp.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="d0cd48cb-3795-458b-8e33-82c383bc29c8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,22 +10,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
-}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
   <component name="ProjectId" id="2tp30d3m4IbBGRXk7fGQXmMErVC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -117,6 +45,7 @@
       <updated>1741034967082</updated>
       <workItem from="1741034968164" duration="38000" />
       <workItem from="1741035028452" duration="7000" />
+      <workItem from="1741035433603" duration="40000" />
     </task>
     <servers />
   </component>
