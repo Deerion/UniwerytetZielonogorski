@@ -1,7 +1,0 @@
-1. Utwórz klasę Kalkulator, która będzie posiadała konstruktory w wersjach 1
-agrumentowej, 4 agrumentowej i 7 argumentowej oraz metodę liczącą i zwracająca
-wynik operacji matematycznej. Dodatkowo konstruktor kopiujący klasy zawierający
-informacje o liczbach wykorzystanych do wykonywania operacji.
-
-2. Korzystając ze strumieni Javy napisz program realizujący odczyt, oraz zapis dowolnych
-danych dla pliku tekstowego *.txt i *.csv.
