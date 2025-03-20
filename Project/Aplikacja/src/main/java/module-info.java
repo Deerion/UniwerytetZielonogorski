@@ -11,6 +11,9 @@ module com.example.aplikacja {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
+    // Otwórz pakiet dla javafx.fxml, jeśli masz kontrolery FXML w tym pakiecie
     opens com.example.aplikacja to javafx.fxml;
+
+    // Eksportuj pakiet, aby inne moduły mogły z niego korzystać
     exports com.example.aplikacja;
 }
