@@ -1,4 +1,4 @@
-# Semestr(4) Zimowy 2024-2025
+# Semestr(4) Letni 2024-2025
 Program IntelliJ
 
 ![uz](https://github.com/Zi0rek/UniwerytetZielonogorski/assets/162125961/395cdddd-f2de-43e4-8ffd-946897ad5d9a)
