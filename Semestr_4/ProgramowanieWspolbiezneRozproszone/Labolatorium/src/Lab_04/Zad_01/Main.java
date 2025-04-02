@@ -1,17 +1,34 @@
 package Lab_04.Zad_01;
+import java.util.concurrent.TimeUnit;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        Cake cake = new Cake();
+        Thread mouse1 = new Mouse(cake, "Mysz_1");
+        Thread mouse2 = new Mouse(cake, "Mysz_2");
+        System.out.println("mouse1=" + mouse1.getState());
+        System.out.println("mouse2=" + mouse2.getState());
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+        mouse1.start();
+        mouse2.start();
+
+        while (true) {
+            System.out.println("mouse1=" + mouse1.getState());
+            System.out.println("mouse2=" + mouse2.getState());
+            try {
+                TimeUnit.MILLISECONDS.sleep(500);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            if (mouse1.getState().ordinal()
+                    + mouse2.getState().ordinal() == 10) {
+                break;
+            }
         }
     }
 }
+
+// W pierwszej wersji kodu obie myszy jedą jednocześnie tort
+
+// W drugiej wersji kodu po zmianie tylko jedna musz ma dostęp do tortu, Synchornizacja powinna być umieszczona
+// w odpowiednim miejscu żeby zabewnić porządany efet działania kodu.

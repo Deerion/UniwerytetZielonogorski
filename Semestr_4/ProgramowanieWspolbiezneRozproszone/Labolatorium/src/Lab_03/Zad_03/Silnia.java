@@ -2,6 +2,7 @@ package Lab_03.Zad_03;
 import java.util.Scanner;
 
 public class Silnia {
+
     private class Watek extends Thread {
         private int liczba;
         private Silnia silnia;
@@ -13,6 +14,7 @@ public class Silnia {
                     + "] ! = " + silnia.licz(liczba));
         }
     }
+
 
     // obliczenie silni odbywa się za pomocą rekurencji
     public synchronized int licz(int wartosc) {
@@ -26,6 +28,8 @@ public class Silnia {
                     + " ==[liczbe]==> " + wartosc);
         }
     }
+
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Podaj liczbę: ");
