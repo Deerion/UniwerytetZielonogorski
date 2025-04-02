@@ -1,0 +1,12 @@
+t = linspace(-2*pi, 2*pi, 200);
+figure;
+plot3(t.^2, t, t.^3, 'r');
+hold on;
+plot3(sin(t), cos(t), t, 'b');
+hold off;
+grid on;
+title('Krzywe parametryczne w 3D');
+xlabel('X');
+ylabel('Y');
+zlabel('Z');
+legend('t^2, t, t^3', 'sin(t), cos(t), t');

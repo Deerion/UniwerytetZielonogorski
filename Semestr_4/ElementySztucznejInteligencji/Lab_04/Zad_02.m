@@ -1,0 +1,10 @@
+figure;
+plot(x2, sin(x2), 'r', 'LineWidth', 1.5);
+hold on;
+plot(x2, cos(x2), 'b', 'LineWidth', 1.5);
+hold off;
+title('y = sin(x) i y = cos(x)');
+xlabel('x');
+ylabel('y');
+legend('sin(x)', 'cos(x)');
+grid on;
