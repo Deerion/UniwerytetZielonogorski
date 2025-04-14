@@ -1,27 +1,25 @@
-# myalgebra.py
+# additionally optimized
+
+def elementwise_operation(a, b, op):
+    if isinstance(a[0], list) and isinstance(b[0], list):
+        if len(a) != len(b) or len(a[0]) != len(b[0]):
+            raise ValueError("Matrices must have the same dimensions for addition or subtraction.")
+        return [[op(x, y) for x, y in zip(row_a, row_b)] for row_a, row_b in zip(a, b)]
+    return [op(x, y) for x, y in zip(a, b)]
 
 def dodaj(a, b):
-    if len(a) != len(b) or len(a[0]) != len(b[0]):
-        return "Nie można dodać macierzy o różnych wymiarach"
-
-    return [[x + y for x, y in zip(row_a, row_b)] for row_a, row_b in zip(a, b)]
-
+    return elementwise_operation(a, b, lambda x, y: x + y)
 
 def odejmij(a, b):
-    if len(a) != len(b) or len(a[0]) != len(b[0]):
-        return "Nie można odjąć macierzy o różnych wymiarach"
-
-    return [[x - y for x, y in zip(row_a, row_b)] for row_a, row_b in zip(a, b)]
-
+    return elementwise_operation(a, b, lambda x, y: x - y)
 
 def pomnoz(a, b):
-    if len(a[0]) != len(b):
-        return "Nie można pomnożyć macierzy, ponieważ liczba kolumn w pierwszej macierzy różni się od liczby wierszy w drugiej"
+    if isinstance(a[0], list) and isinstance(b[0], list):
+        if len(a[0]) != len(b):
+            raise ValueError("Number of columns in the first matrix must equal the number of rows in the second matrix for multiplication.")
+        return [[sum(x * y for x, y in zip(row_a, col_b)) for col_b in zip(*b)] for row_a in a]
+    return a * b
 
-    result = []
-    for i in range(len(a)):
-        row = []
-        for j in range(len(b[0])):
-            row.append(sum(a[i][k] * b[k][j] for k in range(len(b))))
-        result.append(row)
-    return result
+def print_matrix(matrix):
+    for row in matrix:
+        print(" ".join(map(str, row)))

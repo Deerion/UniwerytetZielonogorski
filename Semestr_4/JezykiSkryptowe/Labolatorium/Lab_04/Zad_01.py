@@ -9,11 +9,11 @@ def pomnoz(a, b):
 
 def podziel(a,b):
     if b == 0:
-        raise ValueError("Nie można dzielić przez zero")
+        return("Nie można dzielić przez zero")
     return a / b
 
 a = 2
-b = 3
+b = 0
 print("Wynik dodawania ", a , "+", b, "=",dodaj(a, b))
 print("Wynik odejmowania ", a , "-", b, "=",odejmij(a, b))
 print("Wynik mnozenia ", a , "*", b, "=",pomnoz(a, b))

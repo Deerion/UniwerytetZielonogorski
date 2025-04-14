@@ -1,17 +1,34 @@
+# Lab_04/mymath/Zad_02/myalgebra.py
+
 def dodaj(a, b):
-    if (len(a)==len(b)):
+    """
+    Funkcja dodaje elementy dwóch wektorów (list liczb).
+    Jeśli przekazane argumenty nie są listami lub mają różną długość,
+    zwraca komunikat o błędzie.
+    """
+    if isinstance(a, list) and isinstance(b, list) and len(a) == len(b):
         return [x + y for x, y in zip(a, b)]
     else:
-        return("Nie można dodać wektorów o różnych długościach")
+        return "Błąd: Nieprawidłowe argumenty do dodawania."
 
 def odejmij(a, b):
-    if (len(a)==len(b)):
+    """
+    Funkcja odejmuje elementy dwóch wektorów (list liczb).
+    Jeśli przekazane argumenty nie są listami lub mają różną długość,
+    zwraca komunikat o błędzie.
+    """
+    if isinstance(a, list) and isinstance(b, list) and len(a) == len(b):
         return [x - y for x, y in zip(a, b)]
     else:
-        return("Nie można odjąć wektorów o różnych długościach")
+        return "Błąd: Nieprawidłowe argumenty do odejmowania."
 
 def pomnoz(a, b):
-    if (len(a)==len(b)):
+    """
+    Funkcja mnoży elementy dwóch wektorów (list liczb).
+    Jeśli przekazane argumenty nie są listami lub mają różną długość,
+    zwraca komunikat o błędzie.
+    """
+    if isinstance(a, list) and isinstance(b, list) and len(a) == len(b):
         return [x * y for x, y in zip(a, b)]
     else:
-        return("Nie można pomnożyć wektorów o różnych długościach")
+        return "Błąd: Nieprawidłowe argumenty do mnożenia."

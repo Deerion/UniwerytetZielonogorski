@@ -1,6 +1,6 @@
 #from myalgebra import dodaj, odejmij, pomnoz
-from myalgebra import *
 
+from myalgebra import *
 
 # Test z macierzami
 e = [[1, 2, 3, 4], [4, 5, 6]]

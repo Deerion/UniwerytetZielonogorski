@@ -1,0 +1,15 @@
+Czy czas działania programu zmienia się w zależności od liczby wątków?
+
+    Czas działania programu zmienia się w zależności od liczby wątków,
+    im więcej wątków, tym krótszy czas, do pewnego momentu.
+    Po przekroczeniu w moim przypadku 6 wątków wzrost liczby wątków nie daje już korzyści,
+    nawet pogarsza wydajność z powodu narzutu związanego z zarządzaniem wieloma wątkami.
+
+Jaka jest zależność czasu działania programu i liczby rdzeni procesora w komputerze?
+
+    Po przekroczeniu w moim przypadku 6 wątków wzrost liczby wątków nie daje już korzyści,
+    nawet pogarsza wydajność z powodu narzutu związanego z zarządzaniem wieloma wątkami. Ostatecznie, zależność ta pokazuje,
+    że liczba rdzeni procesora ma kluczowy wpływ na efektywność przetwarzania równoległego.
+
+AMD Ryzen 5 PRO 6650U 2.90 GHz, Liczba rdzeni 6, Windows 11, 16 GB RAM
+
