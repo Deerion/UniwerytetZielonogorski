@@ -1,5 +1,4 @@
 package Lab_04.Zad_04;
-
 import java.util.Random;
 
 public class Main {
@@ -23,20 +22,27 @@ public class Main {
     }
 
     public static void znajdzMinMax(int liczbaWatkow, boolean dlaDouble) {
-        Watek[] watki;
+        /* Zbędne
         if (dlaDouble) {
             watki = new Watek[liczbaWatkow];
         } else {
             watki = new Watek[liczbaWatkow];
         }
+        */
 
+        Watek[] watki = new Watek[liczbaWatkow];
         int wielkoscPartii = ROZMIAR / liczbaWatkow;
 
-        // Przechowywanie czasów pomiarów
         long[] czasyPomiarow = new long[3];
         long sumaCzasow = 0;
 
         for (int i = 0; i < 3; i++) {
+
+            if (dlaDouble) {
+                wypelnijTabliceDouble();
+            } else {
+                wypelnijTabliceInt();
+            }
 
             long start = System.nanoTime();
 
@@ -63,10 +69,34 @@ public class Main {
             }
 
             long end = System.nanoTime();
+
             long czasWykonania = (end - start) / 1_000_000;
             czasyPomiarow[i] = czasWykonania;
             sumaCzasow += czasWykonania;
 
+            /*
+            if (dlaDouble) {
+                double globalMin = Double.MAX_VALUE;
+                double globalMax = Double.MIN_VALUE;
+                for (int j = 0; j < liczbaWatkow; j++) {
+                    double lokalneMin = watki[j].getLokalneMinDouble();
+                    double lokalneMax = watki[j].getLokalneMaxDouble();
+                    if (lokalneMin < globalMin) globalMin = lokalneMin;
+                    if (lokalneMax > globalMax) globalMax = lokalneMax;
+                }
+                System.out.println("Min: " + globalMin + ", Max: " + globalMax);
+            } else {
+                int globalMin = Integer.MAX_VALUE;
+                int globalMax = Integer.MIN_VALUE;
+                for (int j = 0; j < liczbaWatkow; j++) {
+                    int lokalneMin = watki[j].getLokalneMin();
+                    int lokalneMax = watki[j].getLokalneMax();
+                    if (lokalneMin < globalMin) globalMin = lokalneMin;
+                    if (lokalneMax > globalMax) globalMax = lokalneMax;
+                }
+                System.out.println("Min: " + globalMin + ", Max: " + globalMax);
+            }
+            */
 
             System.out.println("Czas dla " + liczbaWatkow + " wątków (pomiar " + (i + 1) + "): " + czasWykonania + " ms");
         }
@@ -83,11 +113,9 @@ public class Main {
             int watki = liczbaWatkow[i];
 
             System.out.println("\n== " + watki + " WĄTKÓW (Int) ==");
-            wypelnijTabliceInt();
             znajdzMinMax(watki, false);
 
             System.out.println("\n== " + watki + " WĄTKÓW (Double) ==");
-            wypelnijTabliceDouble();
             znajdzMinMax(watki, true);
         }
     }

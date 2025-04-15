@@ -1,9 +1,8 @@
 package Lab_04.Zad_04;
-
 public class Watek extends Thread {
     private final int start;
     private final int koniec;
-    private final int numerWątku;
+    private final int numerWatku;
     private final boolean dlaDouble;
 
     private int lokalneMin = Integer.MAX_VALUE;
@@ -11,14 +10,13 @@ public class Watek extends Thread {
     private double lokalneMinDouble = Double.MAX_VALUE;
     private double lokalneMaxDouble = Double.MIN_VALUE;
 
-    public Watek(int start, int koniec, int numerWątku, boolean dlaDouble) {
+    public Watek(int start, int koniec, int numerWatku, boolean dlaDouble) {
         this.start = start;
         this.koniec = koniec;
-        this.numerWątku = numerWątku;
+        this.numerWatku = numerWatku;
         this.dlaDouble = dlaDouble;
     }
 
-    @Override
     public void run() {
         if (dlaDouble) {
             for (int i = start; i < koniec; i++) {
@@ -44,7 +42,6 @@ public class Watek extends Thread {
          */
     }
 
-    // Gettery dla min/max
     public int getLokalneMin() {
         return lokalneMin;
     }

@@ -68,6 +68,7 @@ public class Main {
             }
 
             long end = System.nanoTime();
+
             long czasWykonania = (end - start) / 1_000_000;
             czasyPomiarow[i] = czasWykonania;
             sumaCzasow += czasWykonania;
@@ -95,7 +96,6 @@ public class Main {
                 System.out.println("Min: " + globalMin + ", Max: " + globalMax);
             }
             */
-
 
             System.out.println("Czas dla " + liczbaWatkow + " wątków (pomiar " + (i + 1) + "): " + czasWykonania + " ms");
         }
